@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="68e50044-f0bd-499d-94ad-7aa52f7abe18">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="RedPrince_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="RedPrince_GTS_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RedPrince_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_0" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RedPrince_GTS" />
+        <field name="Comment" type="CommentStatObjectFieldDefinition" value="Cone_GroundSmash_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_2" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RedPrince_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_Flamebreath_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_44" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_RockSpikes_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RedPrince_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RedPrince_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Quake_Earthquake_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_3" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RedPrince_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_DemonicStare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_9" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RedPrince_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Hero_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Hero_GTS_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Hero_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_45" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Hero_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_48" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_RockSpikes_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Hero_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_46" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Quake_Earthquake_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Hero_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_47" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Hero_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="HeroLizard_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="HeroLizard_GTS_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="HeroLizard_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_49" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="HeroLizard_GTS" />
+        <field name="Comment" type="CommentStatObjectFieldDefinition" value="Cone_GroundSmash_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_50" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_Flamebreath_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="HeroLizard_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_51" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_RockSpikes_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="HeroLizard_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_52" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Quake_Earthquake_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="HeroLizard_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_53" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="HeroLizard_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Almira_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_Human_GTS" />
+        <field name="Comment" type="CommentStatObjectFieldDefinition" value="humans don't have the right dummy bone somehow." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Almira_GTS_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_Human_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_54" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_RockSpikes_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_55" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Quake_Earthquake_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_56" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Restoration" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_58" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_FrostAura" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_61" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_SoulMate" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_59" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_57" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Charm" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_60" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_62" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WarfareWater_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_GTS" />
+        <field name="Comment" type="CommentStatObjectFieldDefinition" value="spoiler alert he's a frost dragon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_6" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_5" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="ProjectileStrike_HailStrike" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_IceFan" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_2" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_Shatter" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_3" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_IceBreaker" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_4" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_GlobalCooling" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_4" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CripplingBlow" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_5" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_BouncingShield" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_6" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_7" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_SteamLance" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_8" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="ProjectileStrike_HailAttack" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_9" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_SourceVampirism" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_10" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Curse" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_11" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Bless" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FrostDragon_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_Dragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FrostDragon_GTS_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_Dragon_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FrostDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_16" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash_Dragon_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FrostDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_10" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_EnemyDragonWhirlwind" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FrostDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_17" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_EnemyDragonBreath_Ice" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FrostDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_13" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="ProjectileStrike_EnemyHailStrike" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FrostDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_25" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_GlobalCooling" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FrostDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_12" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="ProjectileStrike_EnemyHailAttack" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FrostDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_7" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_DragonDive_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FrostDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_8" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_DragonFlight" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FrostDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_15" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_EnemyTerrify_Dragon" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FrostDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="DarkDragon_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_Dragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="DarkDragon_GTS_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_Dragon_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DarkDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_11" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash_Dragon_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DarkDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_14" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_EnemyDragonWhirlwind" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DarkDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_18" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_EnemyDragonBreath" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DarkDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_19" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_EnemyDragonBreath_Air" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DarkDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_21" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_EnemyFireball_Dragon_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DarkDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_20" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_EnemyDragon_Air" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DarkDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_22" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_DragonDive_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DarkDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_23" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_DragonFlight" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DarkDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_24" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_EnemyTerrify_Dragon" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DarkDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Incarnate_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_26" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_Incarnate_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_27" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash_Incarnate_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_28" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_31" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Dummy1_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_30" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Dummy2_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_33" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_RangedInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_32" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_PowerInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_34" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_ShadowInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_35" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_WarpInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_36" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_FireInfusion_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_37" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_NecrofireInfusion_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_29" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_WaterInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Incarnate_GTS_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_IceInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_38" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_PoisonInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_39" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_AcidInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_40" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_ElectricInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_41" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CursedElectricInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_43" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OilInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_42" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_BloodInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

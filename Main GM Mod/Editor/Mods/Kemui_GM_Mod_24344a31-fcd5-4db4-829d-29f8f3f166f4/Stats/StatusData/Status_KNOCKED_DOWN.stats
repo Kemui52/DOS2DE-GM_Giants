@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="53eea14d-0e3f-4411-9d44-36d1ff0a6775">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="KNOCKED_DOWN_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="KNOCKED_DOWN" />
+        <field name="SavingThrow" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="SavingThrow" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,7 @@
+new entry "KNOCKED_DOWN_GTS"
+type "StatusData"
+data "StatusType" "KNOCKED_DOWN"
+using "KNOCKED_DOWN"
+data "ForGameMaster" "No"
+data "SavingThrow" "None"
+

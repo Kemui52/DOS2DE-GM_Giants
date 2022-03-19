@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="0f95f232-1b23-421c-abe5-6c82d95f2bb9">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="PhoenixDive_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="PhoenixDive" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="55" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="KNOCKED_DOWN_GTS,100,1" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="HitRadius" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Death Type" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Leap Attack" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Leap toward the target position, dealing&lt;br&gt;[2] in a [1] radius upon landing." />
+        <field name="StatsDescription" type="TranslatedStringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="HitRadius;Damage" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Air_Wind_Prepare_Hand_01:Dummy_BodyFX;RS3_FX_Skills_Air_Wind_Prepare_Ground_01:Dummy_BodyFX;RS3_FX_Skills_Air_Lightning_Prepare_Hand_01:Dummy_CastFX;RS3_FX_Skills_Air_Lightning_Overlay_Loop_01" />
+        <field name="LandingEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Char_Creature_Dragon_DragonDive_Land_01:root:teleport_end" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="DragonDive_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DragonDive" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="55" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="KNOCKED_DOWN_GTS,100,1" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Death Type" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Leap toward the target position, dealing&lt;br&gt;[2] in a [1] radius upon landing." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="HitRadius;Damage" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

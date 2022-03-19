@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="cc1701fc-f374-4681-a3ec-29a5ce8d05e8">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Equip_RedPrince_GTS" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_RedPrince_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Equip_RedPrincess_GTS" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_RedPrincess1_GTS" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_RedPrincess2_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Equip_Almira_GTS" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="RC_Almira_Melee_Dagger_GTS" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="RC_Almira_Melee_Dagger_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="123EquipGTS" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="DragonSteps_Boots_GTS" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="TestBootsGTS" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

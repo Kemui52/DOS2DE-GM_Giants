@@ -1,0 +1,7 @@
+new entry "Storm_Blood_Incarnate_GTS"
+type "SkillData"
+data "SkillType" "Storm"
+using "Storm_EnemyBlood"
+data "CastAnimation" "skill_cast_aoe_voodoo_01_cast"
+data "Magic Cost" "0"
+

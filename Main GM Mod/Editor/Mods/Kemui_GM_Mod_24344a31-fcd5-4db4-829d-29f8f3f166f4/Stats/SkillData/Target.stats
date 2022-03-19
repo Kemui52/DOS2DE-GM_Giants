@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e988a674-28fe-49d2-a6ce-c5c1e0141f4c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="HeavyAttack" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Requirement" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="SkillRequirement" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="125" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="IsMelee" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Death Type" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!Ally;!Dead" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_TwoHandedLightAttack" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="All In" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Perform a heavy attack that deals [1]." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_weapon_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_weapon_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Items_Weapons_Prepare_Weapon_Root_01,KeepRot;RS3_FX_Items_Weapons_Prepare_Weapon_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_attack_power_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_attack_power_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_SubEffects_FireTrail_02:Dummy_R_HandFX,Dummy_L_HandFX;RS3_FX_Items_Weapons_Impact_Weapon_AllIn_Root_01,detach:Dummy_CastFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="RS3_FX_Items_Weapons_Impact_Weapon_AllIn_Root_01:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="RS3_FX_Items_Weapons_Impact_Weapon_AllIn_Root_01:root:cast" />
+        <field name="OverrideMinAP" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Enemy;!Dead" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Overpower_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Overpower" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Death Type" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!Ally;!Dead" />
+        <field name="Requirement" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="SkillRequirement" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Deal [1] and set Knocked Down in a [2] radius." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage;AreaRadius" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_SubEffects_FireTrail_02:Dummy_R_HandFX,Dummy_L_HandFX;RS3_FX_Items_Weapons_Impact_Weapon_AllIn_Root_01,detach:Dummy_CastFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="KNOCKED_DOWN_GTS,100,1" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Overpower_Dragon_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Overpower_GTS" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_SubEffects_FireTrail_02:Dummy_R_HandFX,Dummy_L_HandFX;RS3_FX_Items_Weapons_Impact_Weapon_AllIn_Root_01,detach:Dummy_L_HandFX:cast" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Overpower_Human_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Overpower_Dragon_GTS" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Overpower_Incarnate_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Overpower_GTS" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="attack_ground" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_SubEffects_FireTrail_02:Dummy_R_HandFX,Dummy_L_HandFX;RS3_FX_Items_Weapons_Impact_Weapon_AllIn_Root_01,detach:Dummy_R_HandFX:hit" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="hit" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="CrushCorpse_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="BloatedCorpse" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="SkillAbility" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="EXPLODE,100,1" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="IsMelee" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Death Type" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Dead;CanExplode" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Skillcrafting_Water_BloodStorm" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Mutilate" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Smash a dead body with your weapon, crushing it into a pulp." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="AreaRadius" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_weapon_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_weapon_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Items_Weapons_Prepare_Weapon_Root_01,KeepRot;RS3_FX_Items_Weapons_Prepare_Weapon_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_attack_power_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_attack_power_01_cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_SubEffects_FireTrail_02:Dummy_R_HandFX,Dummy_L_HandFX;RS3_FX_Items_Weapons_Impact_Weapon_AllIn_Root_01,detach:Dummy_CastFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Dead;CanExplode" />
+        <field name="Requirement" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="SkillRequirement" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="CrushCorpse_Dragon_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="CrushCorpse_GTS" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Smash a dead body with your claws, crushing it into a pulp." />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_SubEffects_FireTrail_02:Dummy_R_HandFX,Dummy_L_HandFX;RS3_FX_Items_Weapons_Impact_Weapon_AllIn_Root_01,detach:Dummy_L_HandFX:cast" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="CrushCorpse_Human_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="CrushCorpse_Dragon_GTS" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Smash a dead body with your weapon, crushing it into a pulp." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="CrushCorpse_Incarnate_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="CrushCorpse_GTS" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="attack_ground" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="hit" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_SubEffects_FireTrail_02:Dummy_R_HandFX,Dummy_L_HandFX;RS3_FX_Items_Weapons_Impact_Weapon_AllIn_Root_01,detach:Dummy_R_HandFX:hit" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="PowerInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="PowerInfusion" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="INF_POWER_GTS,100,-1" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!HasStatus:INF_POWER_GTS;Ally;Tagged:INCARNATE_G;!Dead" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Unlocks Whirlwind and Battering Ram for the Incarnate. Provides [1]. Increases damage by [2]%." />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_loop" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_ground_air_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_water_01_cast" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="RangedInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RangedInfusion" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="INF_RANGED_GTS,100,-1" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!HasStatus:INF_RANGED_GTS;Ally;Tagged:INCARNATE_G;!Dead" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_loop" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_ground_air_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_water_01_cast" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Earth_OilInfusion" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Earth Infusion" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Returns Incarnate's element to earth, unlocking Impalement and Earthquake." />
+        <field name="StatsDescription" type="TranslatedStringStatObjectFieldDefinition" value="Returns" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ShadowInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ShadowInfusion" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="INF_SHADOW_GTS,100,-1" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!HasStatus:INF_SHADOW_GTS;Ally;Tagged:INCARNATE_G;!Dead" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Unlocks Chameleon Cloak and&lt;br&gt;Corrupted Claw for the Incarnate.&lt;br&gt;Increases damage by [1]%." />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_loop" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_ground_air_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_water_01_cast" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WarpInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarpInfusion" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="INF_WARP_GTS,100,-1" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!HasStatus:INF_WARP_GTS;Ally;Tagged:INCARNATE_G;!Dead" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Unlocks Dimensional Bolt and&lt;br&gt;Planar Gateway for the Incarnate.&lt;br&gt;Increases damage by [1]%." />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_loop" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_ground_air_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_water_01_cast" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FireInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="FireInfusion" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="INF_FIRE_G_GTS,100,-1" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!HasStatus:INF_FIRE_G_GTS;Ally;Tagged:INCARNATE_G;!Dead" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_loop" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_ground_air_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_water_01_cast" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Changes Incarnate's element to fire, unlocking Fireball and Meteor Shower." />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="NecrofireInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="NecrofireInfusion" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="INF_NECROFIRE_G_GTS,100,-1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!HasStatus:INF_NECROFIRE_G_GTS;Ally;Tagged:INCARNATE_G;!Dead" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Changes Incarnate's element to necrofire, unlocking Cursed Fireball and Supernova." />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_loop" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_ground_air_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_water_01_cast" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WaterInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WaterInfusion" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="INF_WATER_G_GTS,100,-1" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!HasStatus:INF_WATER_G_GTS;Ally;Tagged:INCARNATE_G;!Dead" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_loop" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_ground_air_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_water_01_cast" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Changes Incarnate's element to water, unlocking Restoration and Rain." />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="IceInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="IceInfusion" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="INF_BLESSED_ICE_G_GTS,100,-1" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!HasStatus:INF_BLESSED_ICE_G_GTS;Ally;Tagged:INCARNATE_G;!Dead" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_loop" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_ground_air_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_water_01_cast" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Changes Incarnate's element to ice, unlocking Hail Strike and Global Cooling." />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="PoisonInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="PoisonInfusion" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="INF_POISON_G_GTS,100,-1" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!HasStatus:INF_POISON_G_GTS;Ally;Tagged:INCARNATE_G;!Dead" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_loop" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_ground_air_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_water_01_cast" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Changes Incarnate's element to poison, unlocking Poison Dart and Poison Wave." />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="AcidInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="AcidInfusion" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="INF_ACID_G_GTS,100,-1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!HasStatus:INF_ACID_G_GTS;Ally;Tagged:INCARNATE_G;!Dead" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_loop" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_ground_air_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_water_01_cast" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Changes Incarnate's element to acid, unlocking Acid Spores and Corrosive Spray." />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ElectricInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ElectricInfusion" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="INF_ELECTRIC_G_GTS,100,-1" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!HasStatus:INF_ELECTRIC_G_GTS;Ally;Tagged:INCARNATE_G;!Dead" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_loop" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_ground_air_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_water_01_cast" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Changes Incarnate's element to electricity, unlocking Electric Discharge and Superconductor." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="CursedElectricInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="CursedElectricInfusion" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="INF_CURSED_ELECTRIC_G_GTS,100,-1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!HasStatus:INF_CURSED_ELECTRIC_G_GTS;Ally;Tagged:INCARNATE_G;!Dead" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_loop" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_ground_air_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_water_01_cast" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Changes Incarnate's element to cursed electricity, unlocking Chain Lightning and Closed Circuit." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="BloodInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="CursedElectricInfusion_GTS" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="INF_BLOOD_G_GTS,100,-1" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!HasStatus:INF_BLOOD_G_GTS;Ally;Tagged:INCARNATE_G;!Dead" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="CMP_Skill_Cursed_Blood_Infusion" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Blood Infusion" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Changes Incarnate's element to blood, unlocking Mosquito Swarm and Blood Storm. Increases physical and magic armour by [1]%." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Potion:Stats_Infusion_Blood:MagicArmorBoost" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Totem_Prepare_Totem_Root_NecroFire_01,KeepRot,Detach" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Totem_Cast_Target_Totem_NecroFire_Root_01;RS3_FX_Skills_Totem_Cast_Target_Totem_NecroFire_Hand_01,detach:Dummy_CastFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Totem_Impact_Target_Root_NecroFire_01:Dummy_BodyFX:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Totem_Impact_Target_Root_NecroFire_01:Dummy_BodyFX:cast" />
+        <field name="BeamEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_GP_Beams_NecroFireBeam_01:Dummy_CastFX:Dummy_BodyFX:cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OilInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="CursedElectricInfusion_GTS" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="INF_OIL_G_GTS,100,-1" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!HasStatus:INF_OIL_G_GTS;Ally;Tagged:INCARNATE_G;!Dead" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="CMP_Skill_Cursed_Oil_Infusion" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Oil Infusion" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Changes Incarnate's element to oil, unlocking Fossil Strike and Turn to Oil." />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Totem_Prepare_Totem_Root_Crystals_01,KeepRot,Detach;RS3_FX_Skills_Totem_Prepare_Totem_Root_Shadow_01,KeepRot,Detach" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Totem_Cast_Target_Totem_Shadow_Root_01:root;RS3_FX_Skills_Totem_Cast_Target_Totem_Shadow_Hand_01,detach:Dummy_CastFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Totem_Impact_Target_Root_Shadow_01:Dummy_BodyFX:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Totem_Impact_Target_Root_Shadow_01:Dummy_BodyFX:cast" />
+        <field name="BeamEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_GP_Beams_ShadowBeam_01:Dummy_CastFX:Dummy_BodyFX:cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Restoration_Incarnate_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Restoration" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_air_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_water_01_cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="IncarnateCorruptedBlade_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="IncarnateCorruptedBlade" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Corrupted Claw" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="A kick that deals [1] and sets Decay and Diseased." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Condense_Incarnate_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Condense" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_divine_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_divine_01_cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="RockSpikes_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RockSpikes" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="CRIPPLED_GTS,100,1" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Death Type" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!Ally;!Dead" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Spikes impale all characters in a [2] radius, setting Crippled and dealing [1]." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage;AreaRadius" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="125" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="RockSpikes_Incarnate_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RockSpikes_GTS" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Earth_Prepare_Earth_Foot_01,KeepRot,Detach:Dummy_Root:foot02;RS3_FX_Skills_Earth_Prepare_Earth_Foot_02,KeepRot,Detach:Dummy_Root:foot01;RS3_FX_Skills_Earth_Prepare_Earth_Root_01,KeepRot,Detach:Dummy_Root:root01;RS3_FX_Skills_Earth_Prepare_Earth_Root_01_Addon_Oil,KeepRot,Detach:Dummy_Root:root01;RS3_FX_Skills_Earth_Prepare_Earth_Hand_01_Oil:Dummy_L_HandFX;RS3_FX_Skills_Earth_Prepare_Earth_Hand_01_Oil:Dummy_R_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_earth_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_earth_01_cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Dummy1_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OilInfusion_GTS" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Self;Enemy" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="unknown" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Dummy Skill" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="A dummy skill for keeping added skills organized. Please remove this from the hotbar so new skills are added in this area." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Dummy2_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Dummy1_GTS" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="5d537a8b-7d4e-412b-a070-b23dc016aa4f">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_RedPrince_GTS" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="4e80a06f-2d30-4982-a6e8-9efb661491c8" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="Giant Warhammer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_RedPrincess1_GTS" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="cd7a598c-aed8-4b25-9f13-43d5e9f04a70" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="Lizard's Cleaver" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsCommon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_RedPrincess2_GTS" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="391c4f03-a652-412a-89db-d0c365c5c89b" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="Lizard's Cleaver" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsCommon" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,22 @@
+new equipment "Equip_RedPrince_GTS"
+add equipmentgroup
+add equipment entry "WPN_RedPrince_GTS"
+
+new equipment "Equip_RedPrincess_GTS"
+add equipmentgroup
+add equipment entry "WPN_RedPrincess1_GTS"
+add equipmentgroup
+add equipment entry "WPN_RedPrincess2_GTS"
+
+new equipment "Equip_Almira_GTS"
+add equipmentgroup
+add equipment entry "RC_Almira_Melee_Dagger_GTS"
+add equipmentgroup
+add equipment entry "RC_Almira_Melee_Dagger_GTS"
+
+new equipment "123EquipGTS"
+add equipmentgroup
+add equipment entry "DragonSteps_Boots_GTS"
+add equipmentgroup
+add equipment entry "TestBootsGTS"
+

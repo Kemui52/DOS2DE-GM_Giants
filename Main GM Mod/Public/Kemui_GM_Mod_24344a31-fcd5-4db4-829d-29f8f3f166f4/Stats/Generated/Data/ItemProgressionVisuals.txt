@@ -1,0 +1,18 @@
+new itemgroup "Visual_RedPrince_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "4e80a06f-2d30-4982-a6e8-9efb661491c8",""
+add namegroup "Giant Warhammer","",""
+
+new itemgroup "Visual_RedPrincess1_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "cd7a598c-aed8-4b25-9f13-43d5e9f04a70","LizardsCommon"
+add namegroup "Lizard's Cleaver","",""
+
+new itemgroup "Visual_RedPrincess2_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "391c4f03-a652-412a-89db-d0c365c5c89b","LizardsCommon"
+add namegroup "Lizard's Cleaver","",""
+

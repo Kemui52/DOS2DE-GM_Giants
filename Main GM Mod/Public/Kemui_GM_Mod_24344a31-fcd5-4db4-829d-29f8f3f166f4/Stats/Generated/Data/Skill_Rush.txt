@@ -1,0 +1,10 @@
+new entry "Rush_IncarnateBatteringRam_GTS"
+type "SkillData"
+data "SkillType" "Rush"
+using "Rush_IncarnateBatteringRam"
+data "Damage Multiplier" "100"
+data "SkillProperties" "KNOCKED_DOWN_GTS,100,1"
+data "DeathType" "Explode"
+data "HitRadius" "2"
+data "PrepareEffect" "RS3_FX_Char_Creatures_Fire_Slug_Prepare_Rush_01"
+

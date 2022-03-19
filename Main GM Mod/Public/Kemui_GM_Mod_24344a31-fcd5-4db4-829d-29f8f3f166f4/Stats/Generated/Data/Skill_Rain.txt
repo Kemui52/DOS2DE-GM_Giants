@@ -1,0 +1,8 @@
+new entry "Rain_Water_Incarnate_GTS"
+type "SkillData"
+data "SkillType" "Rain"
+using "Rain_Water"
+data "PrepareAnimationInit" "skill_prepare_voodoo_01_start"
+data "PrepareAnimationLoop" "skill_prepare_voodoo_01_loop"
+data "CastAnimation" "skill_cast_aoe_voodoo_01_cast"
+

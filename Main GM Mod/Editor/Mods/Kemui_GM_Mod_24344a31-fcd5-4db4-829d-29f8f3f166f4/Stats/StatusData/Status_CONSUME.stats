@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="INVULNERABLE_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="INVULNERABLE" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Character is invulnerable." />
+        <field name="StatusEffect" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="CRIPPLED_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="CRIPPLED" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Character is crippled. Cured by Rested." />
+        <field name="StatusEffect" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SavingThrow" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="SavingThrow" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="INF_POWER_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="INF_POWER" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_ElementalInfusion" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Shout_IncarnateWhirlwind_GTS;Rush_IncarnateBatteringRam_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="INF_RANGED_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="INF_RANGED" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_ElementalInfusion" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Earth Infusion" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Earth_OilInfusion" />
+        <field name="StatusEffect" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_Infusion_Ranged_GTS" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Target_RockSpikes_Incarnate_GTS;Quake_Earthquake_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="INF_SHADOW_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="INF_SHADOW" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_ElementalInfusion" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Target_IncarnateCorruptedBlade_GTS;Shout_IncarnateChameleonSkin" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="INF_WARP_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="INF_WARP" />
+        <field name="MaterialType" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="MaterialType" />
+        <field name="Material" type="StringStatObjectFieldDefinition" value="5ea43c69-8488-4f6a-a143-5de77f103be2" />
+        <field name="MaterialApplyBody" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="MaterialApplyArmor" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="MaterialApplyWeapon" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MaterialApplyNormalMap" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_ElementalInfusion" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Projectile_DimensionalBolt;Summon_PlanarGateway_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="INF_FIRE_G_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="INF_FIRE_G" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Projectile_IncarnateFireball;ProjectileStrike_MeteorShower_Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="INF_NECROFIRE_G_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="INF_NECROFIRE_G" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_Infusion_Necrofire_GTS" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Projectile_EnemyFireball_Cursed;Shout_Supernova_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="INF_WATER_G_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="INF_WATER_G" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_Infusion_Water_GTS" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Target_Restoration_Incarnate_GTS;Rain_Water_Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="INF_BLESSED_ICE_G_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="INF_BLESSED_ICE_G" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Ice Infusion" />
+        <field name="StatusEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Char_ElementalDevil_Giant_Ice_A_01:Dummy_BodyFX" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_Infusion_Blessed_Ice_GTS" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="ProjectileStrike_HailStrike_Incarnate_GTS;Shout_GlobalCooling_Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="INF_POISON_G_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="INF_POISON_G" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Projectile_IncarnatePoisonDart;Shout_PoisonWave_Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="INF_ACID_G_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="INF_ACID_G" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_Infusion_Acid_GTS" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Projectile_IncarnateAcidSpores_GTS;Cone_CorrosiveSpray_Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="INF_ELECTRIC_G_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="INF_ELECTRIC_G" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Projectile_IncarnateLightningBolt;Projectile_Superconductor" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="INF_CURSED_ELECTRIC_G_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="INF_CURSED_ELECTRIC_G" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Projectile_ChainLightning_Incarnate_GTS;Shout_IncarnateElectricFence_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="INF_BLOOD_G_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="INF_BLOOD_G" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Target_IncarnateMosquitoSwarm;Storm_Blood_Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="INF_OIL_G_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="INF_OIL_G" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Projectile_IncarnatePyroclasticRock_GTS;Target_Condense_Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="TRAMPLER_GTS" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Gigantic Dragon" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Creature is so large, it crushes everything beneath it in a [1] radius." />
+        <field name="DescriptionParams" type="StringStatObjectFieldDefinition" value="AuraRadius" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="statcons_DeathFog" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="FormatStringColor" />
+        <field name="AuraRadius" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="AuraNeutrals" type="StringStatObjectFieldDefinition" value="TRAMPLED_GTS" />
+        <field name="AuraEnemies" type="StringStatObjectFieldDefinition" value="TRAMPLED_GTS" />
+        <field name="AuraItems" type="StringStatObjectFieldDefinition" value="TRAMPLED_GTS" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

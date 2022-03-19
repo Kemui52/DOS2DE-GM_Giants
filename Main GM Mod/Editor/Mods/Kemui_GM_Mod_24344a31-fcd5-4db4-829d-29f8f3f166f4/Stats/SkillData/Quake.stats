@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="f269fb21-9fdb-493e-b644-c277a7ac6363">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Earthquake_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Earthquake" />
+        <field name="MinSurfaces" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MaxSurfaces" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="SurfaceType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Surface Type" />
+        <field name="SurfaceGrowStep" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="SurfaceGrowInterval" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="SurfaceStatusChance" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Earthquake" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Deal [1] and Knock Down enemy characters in the area around you." />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!Dead;!Ally" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Death Type" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Damage Type" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Earth_Prepare_Shout_Root_01,KeepRot:Dummy_Root;RS3_FX_Skills_Earth_Prepare_Earth_Root_01,KeepRot:Dummy_Root" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="KNOCKED_DOWN_GTS,100,1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

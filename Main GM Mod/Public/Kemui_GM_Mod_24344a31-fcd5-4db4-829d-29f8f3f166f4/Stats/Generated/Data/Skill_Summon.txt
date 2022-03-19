@@ -1,0 +1,12 @@
+new entry "Summon_PlanarGateway_GTS"
+type "SkillData"
+data "SkillType" "Summon"
+using "Summon_PlanarGateway"
+data "ForGameMaster" "No"
+data "IsEnemySkill" "Yes"
+data "ActionPoints" "2"
+data "Magic Cost" "0"
+data "PrepareAnimationInit" "skill_prepare_divine_01_start"
+data "PrepareAnimationLoop" "skill_prepare_divine_01_loop"
+data "CastAnimation" "skill_cast_ground_air_01_cast"
+

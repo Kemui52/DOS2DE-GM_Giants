@@ -1,0 +1,38 @@
+new entry "Stats_Infusion_Ranged"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "DamageBoost" "25"
+data "MagicArmor" "40"
+
+new entry "Stats_Infusion_Ranged_GTS"
+type "Potion"
+using "Stats_Infusion_Ranged"
+data "EarthSpecialist" "5"
+data "EarthResistance" "100"
+data "DamageBoost" "0"
+data "MagicArmor" "0"
+data "Flags" "StunImmunity;PetrifiedImmunity"
+
+new entry "Stats_Infusion_Necrofire_GTS"
+type "Potion"
+using "Stats_Infusion_Necrofire"
+data "MagicPoints" "0"
+data "Flags" "BurnImmunity;CursedImmunity"
+
+new entry "Stats_Infusion_Water_GTS"
+type "Potion"
+using "Stats_Infusion_Water"
+data "Flags" "WetImmunity"
+
+new entry "Stats_Infusion_Blessed_Ice_GTS"
+type "Potion"
+using "Stats_Infusion_Blessed_Ice"
+data "MagicPoints" "0"
+data "Flags" "FreezeImmunity;WetImmunity"
+
+new entry "Stats_Infusion_Acid_GTS"
+type "Potion"
+using "Stats_Infusion_Acid"
+data "Flags" "PoisonImmunity;WeakImmunity;AcidImmunity;CursedImmunity"
+

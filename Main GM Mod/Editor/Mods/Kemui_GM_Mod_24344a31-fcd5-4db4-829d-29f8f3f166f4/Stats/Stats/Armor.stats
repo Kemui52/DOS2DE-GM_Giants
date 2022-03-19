@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="239de60a-29b5-4010-bf7d-f6169d4ddd8a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Invuln_Amulet_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_SourceCollar" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="8000" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="SELF:ONEQUIP:INVULNERABLE_GTS" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="Air" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="Water" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="500" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Immune_Ring_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Rings" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="8000" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;30;34;35;36;37;38;40;41;42;43;48;49;50;51;52;53;58;59" enumeration_type_name="AttributeFlags" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="DragonSteps_Boots_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Inquisitor_Boots" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ArmorType" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="TestBootsGTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Inquisitor_Boots" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="ArmorType" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

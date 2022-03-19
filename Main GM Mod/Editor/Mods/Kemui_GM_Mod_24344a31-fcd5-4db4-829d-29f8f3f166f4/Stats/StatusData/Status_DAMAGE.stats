@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="83b6cb1d-ada3-422f-893b-da1abd4adae3">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="TRAMPLED_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DEATH_FOG" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value=" " />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Trampled by a giant monster." />
+        <field name="StatusEffect" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatusEffectOnTurn" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DamageEvent" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="StatusEvent" />
+        <field name="DamageStats" type="StringStatObjectFieldDefinition" value="Damage_Aura_GTS" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Death Type" />
+        <field name="DamageCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="DamageItems" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="DamageTorches" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="PermanentOnTorch" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="SpawnBlood" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
