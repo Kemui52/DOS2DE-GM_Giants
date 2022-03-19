@@ -1,16 +1,30 @@
 # DOS2 Giants Mod
 
-Adds various overpowered giant monsters to Game Master mode for personal enjoyment. Not intended for typical GM use, but l guess no one's stopping you.
+Adds various overpowered giant monsters to Game Master mode for personal enjoyment. Not intended for typical GM use, but l guess no one's stopping you. Oh yeah, and made on the Definitive Edition.
 
-Check releases page or Steam Workshop for proper package downloads.
+I should add a wiki here to list what's been added.
+
+Check the [Releases](https://github.com/Kemui52/DOS2DE-GM_Giants/releases) page or my [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2778577565) for proper package downloads. Neither are more up to date than the other, though I am holding back on furnishing the Worksop so it doesn't get too much attention while it's new.
 
 ## How to Install Source
 
-You should be able to install the source to a mod by copying its Editor, Mods, Projects, and Public folders into your ``.\Divinity Original Sin 2\DefEd\Data\`` directory. I assume so, anyway. Dunno if that's how it works.
+You should be able to install the source to a mod by copying its Editor, Mods, Projects, and Public folders into the following game directory:
+
+``.\Divinity Original Sin 2\DefEd\Data\``
+
+I assume so, anyway. Dunno if anything else is needed.
+
+## How to Install Release
+
+Release paks should be placed in:
+
+``.\Documents\Larian Studios\Divinity Original Sin 2 Definitive Edition\Local Mods\``
+
+I would assume that's all you need to do.
 
 ### Overrides
 
-Care was taken to remove unecessary overrides in the stats, but some are still present.
+Care was taken to remove unecessary overrides in the stats, but some are still present for one reason or another.
 
 The two Game Master dragon RootTemplates, because I can't undo RootTemplate overrides.
 
