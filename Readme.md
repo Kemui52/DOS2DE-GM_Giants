@@ -24,9 +24,9 @@ Release paks should be placed in:
 
 I would assume that's all you need to do.
 
-### Overrides
+## Overrides
 
-Care was taken to remove unecessary overrides in the stats, but some are still present for one reason or another.
+Care was taken to remove unecessary overrides in the stats, but others are still present for one reason or another.
 
 The two Game Master dragon RootTemplates, because I can't undo RootTemplate overrides.
 

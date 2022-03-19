@@ -23,14 +23,11 @@ Scale
 
 Todo:
 Add damage buff ring?
-Should prolly override all the Battle Stomps to fix their desync'd audio. Jeez.
-	Should be good, but hard to test 'cause nothing in GM uses the skills
-omni-incarnate, all done? made dummy skills, make small form?
+omni-incarnate, all done?
 	add "damage" word to dimensional bolt desc
 don't think l tested tiger visualset (nor checked if there was a wolf)
 look into adding a new enemy faction?
 	not sure if monster works
-Remove ground smash for those who have flame breath??
 
 
 Giants to Consider:
@@ -50,7 +47,6 @@ i know there's a rhino, i hope the rhino is good
 
 
 Messed Up Explosions:
-blood spawn shouldn't have bones, but what can be done?
 (ghost deer) ((huh? l guess l wanted to double-check GM ghost deer))
 battle source puppet has a tree squish, so the moppet
 why is lv6 poisonous trunk not Vegetal? why does lv5 not have poison touch?
@@ -60,7 +56,6 @@ nightmarish voidwoken has a huge bug squish! give to ancient matriarch, cold-cra
 	necro-wing, voidwoken spider, forest spider
 void flayer & vw bonecrusher look like they're made of rock, but I guess they bleed?
 deep dweller could squish into the medium black blood
-children prolly could use smaller squish
 all those voidlings should squish into the medium bug guts forest beetle has
 	and dune spider, cursed spider, dune beetle, fire slug
 bone crawler needs bone squish. and bone walker, bone widow
@@ -126,7 +121,6 @@ Plate/Scale	200  40
 Chain/Leather	115  70
 Cloth		 40 200
 Civilian	 60
-Any Shield	105  70(why do we need to know this?)
 
 
 VisualResources:
