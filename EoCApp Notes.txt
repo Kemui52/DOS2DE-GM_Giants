@@ -1,0 +1,141 @@
+https://docs.larian.game/User:Sunjammer/api
+
+Monster Checklist:
+Scale the AI Bounds radius
+Check display name
+Consider Equipment Class
+Look at Tags
+Consider adding empty VisualSets --almira?
+Remove Blood
+Give equipment if necessary
+Set Level
+Check character Skillset --almira
+Check character Stats
+Make unTeleportable
+Neutralize Alignment
+Give Boss flag
+GM spawn categories:
+	Kemui's Additions
+Jump Up Ladders even though it means down
+Footstep Weight
+Scale
+
+
+Todo:
+Add damage buff ring?
+Should prolly override all the Battle Stomps to fix their desync'd audio. Jeez.
+	Should be good, but hard to test 'cause nothing in GM uses the skills
+omni-incarnate, all done? made dummy skills, make small form?
+	add "damage" word to dimensional bolt desc
+don't think l tested tiger visualset (nor checked if there was a wolf)
+look into adding a new enemy faction?
+	not sure if monster works
+Remove ground smash for those who have flame breath??
+
+
+Giants to Consider:
+race bases
+troll
+demon flayer
+!!black/frost dragon (no resize)
+flesh golem or flesh-eating ghoul
+battle source puppet
+hungry flower
+harbinger of doom? (bad for groundsmash)
+voidwoken bonecrusher? (kinda messed up groundsmash)
+	bone destroyer same deal
+void flayer
+voidwoken deep-dweller (weird movement)
+i know there's a rhino, i hope the rhino is good
+
+
+Messed Up Explosions:
+blood spawn shouldn't have bones, but what can be done?
+(ghost deer) ((huh? l guess l wanted to double-check GM ghost deer))
+battle source puppet has a tree squish, so the moppet
+why is lv6 poisonous trunk not Vegetal? why does lv5 not have poison touch?
+	why does lv5 squish into guts? also, trunk has medium tree, puppet has small
+spiky trunk & hungry flower have wrong squish, too
+nightmarish voidwoken has a huge bug squish! give to ancient matriarch, cold-crawler,
+	necro-wing, voidwoken spider, forest spider
+void flayer & vw bonecrusher look like they're made of rock, but I guess they bleed?
+deep dweller could squish into the medium black blood
+children prolly could use smaller squish
+all those voidlings should squish into the medium bug guts forest beetle has
+	and dune spider, cursed spider, dune beetle, fire slug
+bone crawler needs bone squish. and bone walker, bone widow
+kedelonthebonecrusher has unique squish, but not its generic sibling bone destroyer?????
+	prolly shouldn't be in his own category, too
+undead scarecrow should get tree
+the incandescent skeletons are supposed to squish into bone!
+
+
+red guts
+ tiny		RS3_FX_SK_Cadaver_Blood_A_Tiny
+ small		RS3_FX_SK_Cadaver_Blood_A_Small?
+ medium		RS3_FX_SK_Cadaver_Blood_A_Medium?
+ large		RS3_FX_SK_Cadaver_Blood_A_Large
+		RS3_FX_SK_Cadaver_Blood_A_Huge?
+grey guts
+ tiny		RS3_FX_SK_Cadaver_Void_A_Tiny
+		RS3_FX_SK_Cadaver_Void_A_Small?
+ medium		RS3_FX_SK_Cadaver_Void_A_Medium
+		RS3_FX_SK_Cadaver_Void_A_Large
+		RS3_FX_SK_Cadaver_Void_A_Huge?
+insect
+ medium
+ huge
+ooze
+ small		RS3_FX_SK_Cadaver_OozeLava_A_Small	(LavaOoze)
+ medium		RS3_FX_SK_Cadaver_OozeLava_A_Medium	(LavaOoze)
+ large		RS3_FX_SK_Cadaver_OozeLava_A_Large	(LavaOoze)
+ large		RS3_FX_SK_Cadaver_OozePoison_A_Large	(Ooze)
+ large		RS3_FX_SK_Cadaver_OozeWater_A_Large	(WaterOoze)
+ large		RS3_FX_SK_Cadaver_OozeOil_A_Large?	(OilOoze?)
+acid
+ tiny		RS3_FX_SK_Cadaver_Zombie_A_Tiny
+ small		RS3_FX_SK_Cadaver_Zombie_A_Small?
+ medium		RS3_FX_SK_Cadaver_Zombie_A_Medium?
+ large		RS3_FX_SK_Cadaver_Zombie_A_Large
+tree
+ small
+ medium
+bone
+ small	  skeletal cat
+ medium
+ large
+ice
+ large		RS3_FX_SK_Cadaver_CrystalVoid_A_Large
+crystal					(Automaton)
+ medium		RS3_FX_SK_Cadaver_Raanaar_A_Medium
+ large		RS3_FX_SK_Cadaver_Raanaar_A_Large
+ largered	RS3_FX_SK_Cadaver_Raanaar_B_Large
+ huge		RS3_FX_SK_Cadaver_Raanaar_A_Huge?
+stone					(Stone)
+ medium		RS3_FX_SK_Cadaver_Rock_A_Medium
+ large		RS3_FX_SK_Cadaver_Rock_A_Large?
+ huge		RS3_FX_SK_Cadaver_Rock_A_Huge?
+sourcestone				(SourceStone)
+ medium		RS3_FX_SK_Cadaver_RockSource_A_Medium
+ large		RS3_FX_SK_Cadaver_RockSource_A_Large
+ huge		RS3_FX_SK_Cadaver_RockSource_A_Huge?
+
+
+L10 Armour:	Phy Mag		(full sets)
+Plate/Scale	200  40
+Chain/Leather	115  70
+Cloth		 40 200
+Civilian	 60
+Any Shield	105  70(why do we need to know this?)
+
+
+VisualResources:
+lizard_male_hero_base	d656291b-81f3-445e-84df-4e32cfc18d46
+elementaldevil giant	2eafd50e-b49b-4171-8be7-56112870fed2
+
+
+D:\SteamLibrary\steamapps\common\Divinity Original Sin 2\DefEd\Data
+D:\SteamLibrary\steamapps\common\Divinity Original Sin 2\DefEd\bin\EoCApp.exe
+D:\SteamLibrary\steamapps\workshop\content\435150
+
+call CharacterTransform(((CHARACTERGUID)_Character, (STRING)_ObjectTemplate, (INTEGER)_ReplaceScripts, (INTEGER)_ReplaceScale, (INTEGER)_ReplaceStats, (INTEGER)_ReplaceEquipment, (INTEGER)_ReplaceSkills, (INTEGER)_UseCustomLooks, (INTEGER)_ReleasePlayerData)
