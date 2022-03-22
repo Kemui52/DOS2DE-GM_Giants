@@ -5,14 +5,14 @@ Scale the AI Bounds radius
 Check display name
 Consider Equipment Class
 Look at Tags
-Consider adding empty VisualSets --almira?
+Consider adding empty VisualSets
 Remove Blood
 Give equipment if necessary
 Set Level
-Check character Skillset --almira
+Check character Skillset
 Check character Stats
 Make unTeleportable
-Neutralize Alignment
+Neutralize Alignment using Monster
 Give Boss flag
 GM spawn categories:
 	Kemui's Additions
@@ -23,11 +23,7 @@ Scale
 
 Todo:
 Add damage buff ring?
-omni-incarnate, all done?
-	add "damage" word to dimensional bolt desc
-don't think l tested tiger visualset (nor checked if there was a wolf)
 look into adding a new enemy faction?
-	not sure if monster works
 
 
 Giants to Consider:
@@ -43,6 +39,7 @@ voidwoken bonecrusher? (kinda messed up groundsmash)
 	bone destroyer same deal
 void flayer
 voidwoken deep-dweller (weird movement)
+drill worm maybe
 i know there's a rhino, i hope the rhino is good
 
 
@@ -124,8 +121,12 @@ Civilian	 60
 
 
 VisualResources:
-lizard_male_hero_base	d656291b-81f3-445e-84df-4e32cfc18d46
-elementaldevil giant	2eafd50e-b49b-4171-8be7-56112870fed2
+lizard_male_hero_base	 d656291b-81f3-445e-84df-4e32cfc18d46
+Lizards_Hero_Female_Base 80e8c237-da16-4fae-9252-ccbc774571a9
+humans_female_hero_base	 a19b45f9-1f2e-43f0-952e-3e3bcc9a88a4
+Dwarves_Hero_Female_Base 2e8d3ef9-33ec-4496-b0df-06ae85f26a62
+Elves_Hero_Female_Base 	 466d39b0-519d-4e00-809b-2da4ee3dbfc4
+elementaldevil giant	 2eafd50e-b49b-4171-8be7-56112870fed2
 
 
 D:\SteamLibrary\steamapps\common\Divinity Original Sin 2\DefEd\Data

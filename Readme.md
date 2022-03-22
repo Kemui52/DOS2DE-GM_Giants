@@ -2,7 +2,7 @@
 
 Adds various overpowered giant monsters to Game Master mode for personal enjoyment. Not intended for typical GM use, but l guess no one's stopping you. Oh yeah, and made on the Definitive Edition.
 
-**Spoiler Warning!** Mod adds and will add story spoiler characters and creatures to the character list.
+***Spoiler Warning!*** Mod adds and will add story spoiler characters and creatures to the character list.
 
 I should add a wiki here to list what's been added.
 
@@ -23,6 +23,10 @@ Release paks should be placed in:
 ``.\Documents\Larian Studios\Divinity Original Sin 2 Definitive Edition\Local Mods\``
 
 I would assume that's all you need to do.
+
+## Known Issues
+
+GM mode seems unable to remember the effects of certain statuses, mainly causing the Ultimate Incarnate to lose its infused skills and resistances when it's reloaded.
 
 ## Overrides
 

@@ -14,10 +14,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_Infusion_Fire_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Stats_Infusion_Fire" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="9;2;11" enumeration_type_name="AttributeFlags" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_Infusion_Necrofire_GTS" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Stats_Infusion_Necrofire" />
         <field name="MagicPoints" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="2;15" enumeration_type_name="AttributeFlags" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="2;15;9;11" enumeration_type_name="AttributeFlags" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -32,14 +39,21 @@
         <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_Infusion_Blessed_Ice_GTS" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Stats_Infusion_Blessed_Ice" />
         <field name="MagicPoints" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="1;11" enumeration_type_name="AttributeFlags" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="1;11;9" enumeration_type_name="AttributeFlags" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_Infusion_Acid_GTS" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Stats_Infusion_Acid" />
-        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="4;16;37;15" enumeration_type_name="AttributeFlags" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="4;16;37;15;18;19" enumeration_type_name="AttributeFlags" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_Infusion_Cursed_Electric_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Stats_Infusion_Cursed_Electric" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="3;15;52" enumeration_type_name="AttributeFlags" />
       </fields>
     </stat_object>
   </stat_objects>
