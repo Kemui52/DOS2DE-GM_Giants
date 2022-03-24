@@ -25,8 +25,8 @@ Todo:
 Add damage buff ring?
 look into adding a new enemy faction?
 story: remove dirt mounds? extra coiled ropes at seekers
-	camp boss riff, that guy in the dungeons, and halls?
-rhino, test climb, make leap
+	that guy in the dungeons, and halls?
+rhino, test climb, make jump
 
 
 Giants to Consider:
@@ -47,6 +47,7 @@ werewolf?
 
 
 Messed Up Explosions:
+when you did turtles, did you get story turtles as well?
 (ghost deer) ((huh? l guess l wanted to double-check GM ghost deer))
 battle source puppet has a tree squish, so the moppet
 why is lv6 poisonous trunk not Vegetal? why does lv5 not have poison touch?

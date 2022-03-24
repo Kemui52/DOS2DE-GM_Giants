@@ -4,9 +4,9 @@ Adds various overpowered giant monsters to Game Master mode for personal enjoyme
 
 ***Spoiler Warning!*** Mod adds and will add story spoiler characters and creatures to the character list.
 
-I should add a wiki here to list what's been added.
+Since I made this mod for myself, the giants I add are solely based on my own tastes. Check the [wiki](https://github.com/Kemui52/DOS2DE-GM_Giants/wiki) for more detailed info on what's included.
 
-Check the [Releases](https://github.com/Kemui52/DOS2DE-GM_Giants/releases) page or my [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2778577565) for proper package downloads. Neither are more up to date than the other, though I am holding back on furnishing the Worksop so it doesn't get too much attention while it's new.
+Check my [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2778577565) or the [Releases](https://github.com/Kemui52/DOS2DE-GM_Giants/releases) page for proper package downloads. Neither are more up to date than the other, though I am holding back on furnishing the Worksop so it doesn't get too much attention while it's new.
 
 ## How to Install Source
 
@@ -22,24 +22,8 @@ Release paks should be placed in:
 
 ``.\Documents\Larian Studios\Divinity Original Sin 2 Definitive Edition\Local Mods\``
 
-I would assume that's all you need to do.
+Or at least, I would assume that's all you need to do. The file size is suspiciously small compared to the Workshop listing.
 
-## Known Issues
+## Other Info
 
-GM mode seems unable to remember the effects of certain statuses, mainly causing the Ultimate Incarnate to lose its infused skills and resistances when it's reloaded.
-
-## Overrides
-
-Care was taken to remove unecessary overrides in the stats, but others are still present for one reason or another.
-
-The two Game Master dragon RootTemplates, because I can't undo RootTemplate overrides.
-
-The All-In skill, because I thought I was using it but I changed my mind. I'll prolly remove this.
-
-All versions of Overpower, because I hated how desync'd its original audio was.
-
-Many, many creature RootTemplates for GM and Story, because I'm fixing all the erroneous explosion models.
-
-Slane's VisualSet, because I figured it wouldn't hurt anything to add stuff to the end. I doubt it does, but I'll prolly fix this because I don't need to.
-
-The fish bone Root Template because why the heck does that thing have collision?
+Known issues and mod overrides can be found on the [wiki](https://github.com/Kemui52/DOS2DE-GM_Giants/wiki).

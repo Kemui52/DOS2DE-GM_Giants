@@ -626,7 +626,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Rhino_GTS" />
-        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_EnemyFlight" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_Rhino_GTS" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
