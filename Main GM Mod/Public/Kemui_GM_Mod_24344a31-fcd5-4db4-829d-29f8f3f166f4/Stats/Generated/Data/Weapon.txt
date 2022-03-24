@@ -47,3 +47,8 @@ type "Weapon"
 using "DamageSurface_Deathfog"
 data "Damage Type" "None"
 
+new entry "_Animals_Pentaceratops_Rhino_GTS"
+type "Weapon"
+using "_Animals_Pentaceratops_A"
+data "ExtraProperties" "EXPLODE,100,1;KNOCKED_DOWN,100,1"
+

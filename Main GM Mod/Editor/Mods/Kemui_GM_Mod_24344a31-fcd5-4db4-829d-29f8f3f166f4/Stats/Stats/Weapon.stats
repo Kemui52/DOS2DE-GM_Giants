@@ -62,5 +62,12 @@
         <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Damage Type" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Animals_Pentaceratops_Rhino_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Animals_Pentaceratops_A" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="EXPLODE,100,1;KNOCKED_DOWN,100,1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

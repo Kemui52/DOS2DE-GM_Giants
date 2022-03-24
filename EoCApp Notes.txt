@@ -1,7 +1,7 @@
 https://docs.larian.game/User:Sunjammer/api
 
 Monster Checklist:
-Scale the AI Bounds radius
+Scale the AI Bounds radius, check height --make 2nd rhino when we're done
 Check display name
 Consider Equipment Class
 Look at Tags
@@ -9,8 +9,8 @@ Consider adding empty VisualSets
 Remove Blood
 Give equipment if necessary
 Set Level
-Check character Skillset
-Check character Stats
+Check character Skillset --rhino test
+Check character Stats --rhino test
 Make unTeleportable
 Neutralize Alignment using Monster
 Give Boss flag
@@ -24,6 +24,9 @@ Scale
 Todo:
 Add damage buff ring?
 look into adding a new enemy faction?
+story: remove dirt mounds? extra coiled ropes at seekers
+	camp boss riff, that guy in the dungeons, and halls?
+rhino, test climb, make leap
 
 
 Giants to Consider:
@@ -40,7 +43,7 @@ voidwoken bonecrusher? (kinda messed up groundsmash)
 void flayer
 voidwoken deep-dweller (weird movement)
 drill worm maybe
-i know there's a rhino, i hope the rhino is good
+werewolf?
 
 
 Messed Up Explosions:

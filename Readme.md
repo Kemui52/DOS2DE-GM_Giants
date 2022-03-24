@@ -41,3 +41,5 @@ All versions of Overpower, because I hated how desync'd its original audio was.
 Many, many creature RootTemplates for GM and Story, because I'm fixing all the erroneous explosion models.
 
 Slane's VisualSet, because I figured it wouldn't hurt anything to add stuff to the end. I doubt it does, but I'll prolly fix this because I don't need to.
+
+The fish bone Root Template because why the heck does that thing have collision?

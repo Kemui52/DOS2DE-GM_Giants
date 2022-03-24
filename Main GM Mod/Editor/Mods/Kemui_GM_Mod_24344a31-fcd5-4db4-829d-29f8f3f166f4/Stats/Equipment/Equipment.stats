@@ -23,9 +23,9 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="123EquipGTS" />
-        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="DragonSteps_Boots_GTS" />
-        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="TestBootsGTS" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Equip_Rhino_GTS" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="_Animals_Pentaceratops_Rhino_GTS" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="NoShield" />
       </fields>
     </stat_object>
   </stat_objects>
