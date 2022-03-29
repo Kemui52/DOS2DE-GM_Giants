@@ -20,3 +20,9 @@ add equipment entry "_Animals_Pentaceratops_Rhino_GTS"
 add equipmentgroup
 add equipment entry "NoShield"
 
+new equipment "Equip_Rhino_Radius_GTS"
+add equipmentgroup
+add equipment entry "_Animals_Radius_Rhino_GTS"
+add equipmentgroup
+add equipment entry "NoShield"
+

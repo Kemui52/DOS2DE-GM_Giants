@@ -632,7 +632,7 @@
     <stat_object is_substat="true">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_63" />
-        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_Rhino_GTS" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Rhino_GTS" />
       </fields>
     </stat_object>

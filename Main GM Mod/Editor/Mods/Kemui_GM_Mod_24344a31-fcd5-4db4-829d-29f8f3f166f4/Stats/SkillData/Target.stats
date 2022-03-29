@@ -151,6 +151,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="CrushCorpse_Rhino_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="CrushCorpse_Dragon_GTS" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Smash a dead body, crushing it into a pulp." />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_SubEffects_FireTrail_02:Dummy_R_HandFX,Dummy_L_HandFX;RS3_FX_Items_Weapons_Impact_Weapon_AllIn_Root_01,detach:Dummy_CastFX:cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="CrushCorpse_Human_GTS" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="CrushCorpse_Dragon_GTS" />
         <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="5" />

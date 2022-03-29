@@ -67,6 +67,15 @@
         <field name="Name" type="NameStatObjectFieldDefinition" value="_Animals_Pentaceratops_Rhino_GTS" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Animals_Pentaceratops_A" />
         <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="EXPLODE,100,1;KNOCKED_DOWN,100,1" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="250" />
+        <field name="CleaveAngle" type="IntegerStatObjectFieldDefinition" value="60" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Animals_Radius_Rhino_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Animals_Pentaceratops_Rhino_GTS" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="400" />
       </fields>
     </stat_object>
   </stat_objects>

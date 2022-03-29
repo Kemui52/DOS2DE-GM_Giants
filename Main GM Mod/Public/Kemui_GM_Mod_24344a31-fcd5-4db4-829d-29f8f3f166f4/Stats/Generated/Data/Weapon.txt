@@ -50,5 +50,12 @@ data "Damage Type" "None"
 new entry "_Animals_Pentaceratops_Rhino_GTS"
 type "Weapon"
 using "_Animals_Pentaceratops_A"
+data "WeaponRange" "250"
+data "CleaveAngle" "60"
 data "ExtraProperties" "EXPLODE,100,1;KNOCKED_DOWN,100,1"
+
+new entry "_Animals_Radius_Rhino_GTS"
+type "Weapon"
+using "_Animals_Pentaceratops_Rhino_GTS"
+data "WeaponRange" "400"
 

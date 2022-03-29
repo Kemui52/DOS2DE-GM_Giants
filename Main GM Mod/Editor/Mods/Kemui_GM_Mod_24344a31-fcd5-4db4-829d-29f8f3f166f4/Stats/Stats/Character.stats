@@ -54,6 +54,7 @@
         <field name="EarthSpecialist" type="IntegerStatObjectFieldDefinition" value="3" />
         <field name="Loremaster" type="IntegerStatObjectFieldDefinition" value="1" />
         <field name="Persuasion" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Gain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="BigQualifier" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -224,6 +225,7 @@
         <field name="Talents" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
         <field name="MPStart" type="IntegerStatObjectFieldDefinition" value="3" />
         <field name="StepsType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="StepsType" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="700" />
       </fields>
     </stat_object>
   </stat_objects>
