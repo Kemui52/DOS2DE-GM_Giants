@@ -1,18 +1,54 @@
 new equipment "Equip_RedPrince_GTS"
 add equipmentgroup
 add equipment entry "WPN_RedPrince_GTS"
+add equipmentgroup
+add equipment entry "Heavy_UpperBody_GTS"
+add equipmentgroup
+add equipment entry "Heavy_LowerBody_GTS"
+add equipmentgroup
+add equipment entry "Heavy_Boots_GTS"
+add equipmentgroup
+add equipment entry "Heavy_Gloves_GTS"
 
 new equipment "Equip_RedPrincess_GTS"
 add equipmentgroup
 add equipment entry "WPN_RedPrincess1_GTS"
 add equipmentgroup
 add equipment entry "WPN_RedPrincess2_GTS"
+add equipmentgroup
+add equipment entry "Civilian_UpperBody_GTS"
+add equipmentgroup
+add equipment entry "Civilian_LowerBody_GTS"
+add equipmentgroup
+add equipment entry "Civilian_Boots_GTS"
+
+new equipment "Equip_WarfareWater_GTS"
+add equipmentgroup
+add equipment entry "ArenaWarfareWater_Sword"
+add equipmentgroup
+add equipment entry "ArenaWarfareWater_Shield"
+add equipmentgroup
+add equipment entry "GRN_Grenade_BlessedIce_A"
+add equipmentgroup
+add equipment entry "Light_UpperBody_GTS"
+add equipmentgroup
+add equipment entry "Light_LowerBody_GTS"
+add equipmentgroup
+add equipment entry "Light_Gloves_GTS"
+add equipmentgroup
+add equipment entry "Light_Boots_GTS"
 
 new equipment "Equip_Almira_GTS"
 add equipmentgroup
 add equipment entry "RC_Almira_Melee_Dagger_GTS"
 add equipmentgroup
 add equipment entry "RC_Almira_Melee_Dagger_GTS"
+add equipmentgroup
+add equipment entry "Mage_Helmet_GTS"
+add equipmentgroup
+add equipment entry "Mage_UpperBody_GTS"
+add equipmentgroup
+add equipment entry "Mage_LowerBody_GTS"
 
 new equipment "Equip_Rhino_GTS"
 add equipmentgroup

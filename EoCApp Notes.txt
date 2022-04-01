@@ -10,6 +10,7 @@ Remove Blood
 Give equipment if necessary
 Set Level
 Check character Skillset
+Glance at Speaker Group
 Check character Stats
 Make unTeleportable
 Neutralize Alignment using Monster
@@ -26,7 +27,9 @@ Add damage buff ring?
 look into adding a new enemy faction?
 story: remove dirt mounds? extra coiled ropes at seekers
 	that guy in the dungeons, and halls?
+	zaleskar needs 2 source points
 	add the atmospheres it uses?
+	magister sang not initiating combat, demon nearby needs source
 player light was missing from rhino & incarnate. does it look ok?
 
 

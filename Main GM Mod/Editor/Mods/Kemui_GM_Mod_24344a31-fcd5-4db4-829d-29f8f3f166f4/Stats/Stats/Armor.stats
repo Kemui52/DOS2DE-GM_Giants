@@ -28,17 +28,143 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="DragonSteps_Boots_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Inquisitor_Boots" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ArmorType" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Heavy_Helmet_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Heavy_Helmet" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Heavy_Helmet_GTS" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="TestBootsGTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Inquisitor_Boots" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="ArmorType" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Heavy_UpperBody_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Heavy_UpperBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Heavy_UpperBody_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Heavy_Gloves_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Heavy_Gloves" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Heavy_Gloves_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Heavy_Boots_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Heavy_Boots" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Heavy_Boots_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Heavy_LowerBody_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Heavy_LowerBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Heavy_LowerBody_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Light_Helmet_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Light_Helmet" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Light_Helmet_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Light_UpperBody_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Light_UpperBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Light_UpperBody_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Light_Gloves_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Light_Gloves" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Light_Gloves_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Light_Boots_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Light_Boots" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Light_Boots_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Light_LowerBody_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Light_LowerBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Light_LowerBody_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Mage_Helmet_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Mage_Helmet" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Mage_Helmet_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Mage_UpperBody_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Mage_UpperBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Mage_UpperBody_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Mage_Gloves_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Mage_Gloves" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Mage_Gloves_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Mage_Boots_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Mage_Boots" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Mage_Boots_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Mage_LowerBody_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Mage_LowerBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Mage_LowerBody_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Civilian_Helmet_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Civilian_Helmet" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Civilian_Helmet_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Civilian_UpperBody_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Civilian_UpperBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Civilian_UpperBody_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Civilian_Gloves_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Civilian_Gloves" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Civilian_Gloves_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Civilian_Boots_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Civilian_Boots" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Civilian_Boots_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Civilian_LowerBody_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Civilian_LowerBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_Civilian_LowerBody_GTS" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
       </fields>
     </stat_object>
   </stat_objects>

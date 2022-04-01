@@ -16,3 +16,103 @@ add levelgroup 0,0,"All"
 add rootgroup "391c4f03-a652-412a-89db-d0c365c5c89b","LizardsCommon"
 add namegroup "Lizard's Cleaver","",""
 
+new itemgroup "Visual_Heavy_Helmet_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "ad6eb2f0-636b-4d69-9568-91e89a838007",""
+
+new itemgroup "Visual_Heavy_UpperBody_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "71cdfc22-218d-4011-99f1-24437609c458",""
+
+new itemgroup "Visual_Heavy_Gloves_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "702d9288-a19d-4257-9b1f-fdc04df710d7",""
+
+new itemgroup "Visual_Heavy_Boots_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "5d5109f6-ae4a-4b7d-8d8f-06e2befa001a",""
+
+new itemgroup "Visual_Heavy_LowerBody_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "ce3807a5-4b7e-4386-a401-605eea2c7fa9",""
+
+new itemgroup "Visual_Light_Helmet_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "3d370b40-ee16-49fb-8237-3bf867014514",""
+
+new itemgroup "Visual_Light_UpperBody_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "582d1ce1-8a84-4760-b9ec-adbc833699fb",""
+
+new itemgroup "Visual_Light_Gloves_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "80ec6263-c242-40c9-802b-9d00286b7102",""
+
+new itemgroup "Visual_Light_Boots_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "3fbfb04b-6f4d-4075-b606-aaa876013878",""
+
+new itemgroup "Visual_Light_LowerBody_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "62ba3664-2b3e-4a3a-b877-acf876e0020f",""
+
+new itemgroup "Visual_Mage_Helmet_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "2dafd863-b454-479f-b247-ba5f8f8ee85a",""
+
+new itemgroup "Visual_Mage_UpperBody_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "d5e1ee5c-67c4-4780-a8ca-14fb82595a02",""
+
+new itemgroup "Visual_Mage_Gloves_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "fe3c1775-46dd-486c-a42a-542ca3c9ad1e",""
+
+new itemgroup "Visual_Mage_Boots_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "12ea76eb-0a11-4e8d-b2a9-2e27b28ba4bd",""
+
+new itemgroup "Visual_Mage_LowerBody_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "41a8bbc7-2940-4638-965e-518cf35a734f",""
+
+new itemgroup "Visual_Civilian_Helmet_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "a80f2cce-d53f-4100-84f6-bb973bfa5eb6",""
+
+new itemgroup "Visual_Civilian_UpperBody_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "f3670ec5-0a8e-4519-9c69-c8f1bebfcae0",""
+
+new itemgroup "Visual_Civilian_Gloves_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "e430487e-bbec-49ce-b051-af5e2aefbaee",""
+
+new itemgroup "Visual_Civilian_Boots_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "e19baba8-518f-4d24-bb5e-4ecfb4d61c82",""
+
+new itemgroup "Visual_Civilian_LowerBody_GTS"
+
+add levelgroup 0,0,"All"
+add rootgroup "be0f9e5f-103c-4988-af0f-d7d461b1a922",""
+

@@ -237,8 +237,8 @@
     <stat_object is_substat="true">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_6" />
-        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash_GTS" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
+        <field name="Comment" type="CommentStatObjectFieldDefinition" value="Cone_GroundSmash_GTS" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">

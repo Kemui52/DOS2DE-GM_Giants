@@ -5,6 +5,10 @@
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Equip_RedPrince_GTS" />
         <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_RedPrince_GTS" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="Heavy_UpperBody_GTS" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="Heavy_LowerBody_GTS" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="Heavy_Boots_GTS" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="Heavy_Gloves_GTS" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -12,6 +16,21 @@
         <field name="Name" type="NameStatObjectFieldDefinition" value="Equip_RedPrincess_GTS" />
         <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_RedPrincess1_GTS" />
         <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_RedPrincess2_GTS" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="Civilian_UpperBody_GTS" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="Civilian_LowerBody_GTS" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="Civilian_Boots_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Equip_WarfareWater_GTS" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ArenaWarfareWater_Sword" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ArenaWarfareWater_Shield" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="GRN_Grenade_BlessedIce_A" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="Light_UpperBody_GTS" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="Light_LowerBody_GTS" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="Light_Gloves_GTS" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="Light_Boots_GTS" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -19,6 +38,9 @@
         <field name="Name" type="NameStatObjectFieldDefinition" value="Equip_Almira_GTS" />
         <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="RC_Almira_Melee_Dagger_GTS" />
         <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="RC_Almira_Melee_Dagger_GTS" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="Mage_Helmet_GTS" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="Mage_UpperBody_GTS" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="Mage_LowerBody_GTS" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
