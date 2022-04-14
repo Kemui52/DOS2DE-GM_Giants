@@ -58,7 +58,7 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Hero_GTS" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="HeroUndead_GTS" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_GTS" />
       </fields>
     </stat_object>
@@ -66,35 +66,35 @@
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Hero_GTS_substat" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Hero_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="HeroUndead_GTS" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_45" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Hero_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="HeroUndead_GTS" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_48" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_RockSpikes_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Hero_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="HeroUndead_GTS" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_46" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Quake_Earthquake_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Hero_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="HeroUndead_GTS" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_47" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Hero_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="HeroUndead_GTS" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -147,9 +147,50 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="HeroHumanUndead_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_Human_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="HeroHuman_GTS_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_Human_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="HeroHumanUndead_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_65" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash_Human_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="HeroHumanUndead_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_66" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_RockSpikes_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="HeroHumanUndead_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_67" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Quake_Earthquake_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="HeroHumanUndead_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_68" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="HeroHumanUndead_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Almira_GTS" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_Human_GTS" />
-        <field name="Comment" type="CommentStatObjectFieldDefinition" value="humans don't have the right dummy bone somehow." />
+        <field name="Comment" type="CommentStatObjectFieldDefinition" value="humans don't have the casting dummy bone in the right place somehow." />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
@@ -239,6 +280,7 @@
         <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_6" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
         <field name="Comment" type="CommentStatObjectFieldDefinition" value="Cone_GroundSmash_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_BouncingShield_GTS" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
@@ -279,14 +321,13 @@
     <stat_object is_substat="true">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_4" />
-        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CripplingBlow" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
+        <field name="Comment" type="CommentStatObjectFieldDefinition" value="Target_CripplingBlow" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_5" />
-        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_BouncingShield" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WarfareWater_GTS" />
       </fields>
     </stat_object>

@@ -62,3 +62,7 @@ add equipment entry "_Animals_Radius_Rhino_GTS"
 add equipmentgroup
 add equipment entry "NoShield"
 
+new equipment "Equip_Player_GTS"
+add equipmentgroup
+add equipment entry "WPN_RedPrince_GTS"
+

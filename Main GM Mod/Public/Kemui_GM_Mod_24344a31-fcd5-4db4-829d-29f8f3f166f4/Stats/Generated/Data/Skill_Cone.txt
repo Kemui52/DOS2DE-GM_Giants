@@ -107,6 +107,13 @@ data "PrepareEffect" "RS3_FX_Skills_Warrior_Prepare_Hand_01:Dummy_R_HandFX,Dummy
 data "CastEffect" "RS3_FX_Char_Creature_Dragon_Cast_GroundSmash_01:Dummy_CastFX:cast;RS3_FX_SubEffects_FireTrail_02:Dummy_L_HandFX,Dummy_R_HandFX;RS3_FX_Items_Weapons_Impact_Weapon_AllIn_Root_01,detach:Dummy_L_HandFX:cast"
 data "BackStart" "66"
 
+new entry "Cone_GroundSmash_Human_GTS"
+type "SkillData"
+data "SkillType" "Cone"
+using "Cone_GroundSmash_GTS"
+data "IsEnemySkill" "Yes"
+data "Range" "11"
+
 new entry "Cone_GroundSmash_Incarnate_GTS"
 type "SkillData"
 data "SkillType" "Cone"

@@ -5,18 +5,20 @@ Scale the AI Bounds radius, check height
 Check display name
 Consider Equipment Class
 Look at Tags
-Consider adding empty VisualSets
+Consider adding empty VisualSets --undead human
 Remove Blood
 Give equipment if necessary
 Set Level
 Check character Skillset
-Glance at Speaker Group
+Test Speaker Group???
 Check character Stats
 Make unTeleportable
 Neutralize Alignment using Monster
 Give Boss flag
 GM spawn categories:
-	Kemui's Additions
+	Kemui's Giants
+	Kemui's Template Giants
+	Kemui's Tramplers
 Jump Up Ladders even though it means down
 Footstep Weight
 Scale
@@ -24,20 +26,22 @@ Scale
 
 Todo:
 Add damage buff ring?
-look into adding a new enemy faction?
-story: remove dirt mounds? extra coiled ropes at seekers
-	that guy in the dungeons, and halls?
-	zaleskar needs 2 source points
+gmstory: replace dirt mounds? jail door unbreakable
 	add the atmospheres it uses?
-	magister sang not initiating combat, demon nearby needs source
+	prisoners don't have sucker punch
+	delorus in prison wasn't fighting?
+	silent monks not fighting???
 player light was missing from rhino & incarnate. does it look ok?
+GM can give rune slots to any weapon, but a weapon stat can't come with a rune.
+	gm calls them sockets
+	(we prolly want one either way for Story)
+does lone wolf work in gm mode?
 
 
 Giants to Consider:
 race bases
 troll
 demon flayer
-!!black/frost dragon (no resize)
 flesh golem or flesh-eating ghoul
 battle source puppet
 hungry flower

@@ -57,5 +57,11 @@
         <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="NoShield" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Equip_Player_GTS" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_RedPrince_GTS" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

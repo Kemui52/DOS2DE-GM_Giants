@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<save>
+    <header version="2" />
+    <version major="3" minor="6" revision="6" build="0" />
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="Module" value="00a62978-d706-456e-b4cd-382a70c7cb5a" type="23" />
+            <attribute id="Name" value="Kemui_GM_ArmorSet" type="23" />
+            <attribute id="Type" value="Add-on" type="23" />
+            <attribute id="UUID" value="1026bb12-93a5-4605-925d-94578faba39a" type="23" />
+        </node>
+    </region>
+</save>

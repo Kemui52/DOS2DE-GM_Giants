@@ -17,7 +17,7 @@
         <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!Dead;!Ally" />
         <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Death Type" />
-        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Damage Type" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
         <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Earth_Prepare_Shout_Root_01,KeepRot:Dummy_Root;RS3_FX_Skills_Earth_Prepare_Earth_Root_01,KeepRot:Dummy_Root" />
         <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="KNOCKED_DOWN_GTS,100,1" />
       </fields>

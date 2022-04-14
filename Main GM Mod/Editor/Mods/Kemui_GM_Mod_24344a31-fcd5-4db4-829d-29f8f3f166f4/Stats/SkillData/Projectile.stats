@@ -59,6 +59,7 @@
         <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_throw_line_01_cast" />
         <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="HeightOffset" type="IntegerStatObjectFieldDefinition" value="125" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -69,6 +70,7 @@
         <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
         <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="HeightOffset" type="IntegerStatObjectFieldDefinition" value="125" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -77,6 +79,17 @@
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="IncarnatePyroclasticRock" />
         <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Death Type" />
         <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Earth_Prepare_Earth_Foot_01,KeepRot,Detach:Dummy_Root:foot02;RS3_FX_Skills_Earth_Prepare_Earth_Foot_02,KeepRot,Detach:Dummy_Root:foot01;RS3_FX_Skills_Earth_Prepare_Earth_Root_01,KeepRot,Detach:Dummy_Root:root01;RS3_FX_Skills_Earth_Prepare_Earth_Root_01_Addon_Oil,KeepRot,Detach:Dummy_Root:root01" />
+        <field name="HeightOffset" type="IntegerStatObjectFieldDefinition" value="125" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="BouncingShield_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="BouncingShield" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Death Type" />
+        <field name="HeightOffset" type="IntegerStatObjectFieldDefinition" value="150" />
       </fields>
     </stat_object>
   </stat_objects>

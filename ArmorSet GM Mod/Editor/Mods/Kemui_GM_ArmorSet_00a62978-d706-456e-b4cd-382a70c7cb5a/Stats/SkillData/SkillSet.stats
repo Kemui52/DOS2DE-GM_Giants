@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="68e50044-f0bd-499d-94ad-7aa52f7abe18">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="DevourerDragon_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_Dragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="DevourerDragon_GTS_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_Dragon_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash_Dragon_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_EnemyDragonWhirlwind" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_2" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_EnemyDragonBreath" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_3" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_EnemyFireball_Dragon_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_4" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_EnemyBlackShroud" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_8" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_EnemyGraspOfTheStarved" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_5" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_DragonDive_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_6" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_DragonFlight" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_7" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_EnemyTerrify_Dragon" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
