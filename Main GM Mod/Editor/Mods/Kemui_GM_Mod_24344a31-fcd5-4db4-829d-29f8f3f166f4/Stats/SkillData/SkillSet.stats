@@ -666,6 +666,150 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_Incarnate_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_26a" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_Incarnate_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_27a" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash_Incarnate_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_28a" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_31a" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_30a" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_33a" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_RangedInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_32a" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_PowerInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_34a" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_ShadowInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_35a" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_WarpInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_36a" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_FireInfusion_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_37a" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_NecrofireInfusion_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_29a" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_WaterInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Incarnate_GTS_substata" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_IceInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_38a" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_PoisonInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_39a" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_AcidInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_40a" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_ElectricInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_41a" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CursedElectricInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_43a" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OilInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_42a" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_BloodInfusion_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_69" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_BanishSelf" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Rhino_GTS" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_Rhino_GTS" />
       </fields>

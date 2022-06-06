@@ -5,12 +5,11 @@ Scale the AI Bounds radius, check height
 Check display name
 Consider Equipment Class
 Look at Tags
-Consider adding empty VisualSets --undead human
+Consider adding empty VisualSets
 Remove Blood
 Give equipment if necessary
 Set Level
 Check character Skillset
-Test Speaker Group???
 Check character Stats
 Make unTeleportable
 Neutralize Alignment using Monster
@@ -26,16 +25,18 @@ Scale
 
 Todo:
 Add damage buff ring?
-gmstory: replace dirt mounds? jail door unbreakable
+gmstory: replace dirt mounds?
+	radeka's cave, medat is there twice
 	add the atmospheres it uses?
-	prisoners don't have sucker punch
-	delorus in prison wasn't fighting?
-	silent monks not fighting???
+	silent monks not able to fight???
+	armor DLC adds different Dallis scripting that's very intrusive?
 player light was missing from rhino & incarnate. does it look ok?
 GM can give rune slots to any weapon, but a weapon stat can't come with a rune.
 	gm calls them sockets
 	(we prolly want one either way for Story)
-does lone wolf work in gm mode?
+does lone wolf work in gm mode? lol, nope. almost, but nope.
+making giant damage flinchless. only did male lizard so far
+dragon's fireball doesn't count as fire damage?
 
 
 Giants to Consider:
@@ -136,6 +137,8 @@ VisualResources:
 lizard_male_hero_base	 d656291b-81f3-445e-84df-4e32cfc18d46
 Lizards_Hero_Female_Base 80e8c237-da16-4fae-9252-ccbc774571a9
 humans_female_hero_base	 a19b45f9-1f2e-43f0-952e-3e3bcc9a88a4
+humans male skeletonbase ab01c22a-cce0-483b-84e6-2d331b6c2982
+humans female skeleton	 a19b45f9-1f2e-43f0-952e-3e3bcc9a88a4
 Dwarves_Hero_Female_Base 2e8d3ef9-33ec-4496-b0df-06ae85f26a62
 Elves_Hero_Female_Base 	 466d39b0-519d-4e00-809b-2da4ee3dbfc4
 elementaldevil giant	 2eafd50e-b49b-4171-8be7-56112870fed2
