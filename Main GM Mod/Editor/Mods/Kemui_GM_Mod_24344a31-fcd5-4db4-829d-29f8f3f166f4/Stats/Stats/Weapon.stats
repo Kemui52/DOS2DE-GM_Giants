@@ -78,5 +78,15 @@
         <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="400" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Boost_Weapon_Rune_LOOT_Rune_GTS_Giant" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Boost_Weapon_Rune_LOOT_Rune_Rock_Giant" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Damage Type" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
+        <field name="Projectile" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

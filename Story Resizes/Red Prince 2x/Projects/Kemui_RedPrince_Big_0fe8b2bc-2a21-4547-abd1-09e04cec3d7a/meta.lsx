@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<save>
+    <header version="2" />
+    <version major="3" minor="6" revision="6" build="0" />
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="Module" value="0fe8b2bc-2a21-4547-abd1-09e04cec3d7a" type="23" />
+            <attribute id="Name" value="Kemui_RedPrince_Big" type="23" />
+            <attribute id="Type" value="Add-on" type="23" />
+            <attribute id="UUID" value="cf5ea4d6-4818-4dda-8acf-bb58309830f0" type="23" />
+        </node>
+    </region>
+</save>

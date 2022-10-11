@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e078e210-b9ba-48e5-afe3-c5eb91ba8545">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="LOOT_Rune_GTS_Giant" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="LOOT_Rune_Rock_Giant" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="1d483ad3-fc51-4b9a-a257-bc584e1b3910" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="16" enumeration_type_name="ActPart" />
+        <field name="RuneEffectWeapon" type="StringStatObjectFieldDefinition" value="_Boost_Weapon_Rune_LOOT_Rune_GTS_Giant" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

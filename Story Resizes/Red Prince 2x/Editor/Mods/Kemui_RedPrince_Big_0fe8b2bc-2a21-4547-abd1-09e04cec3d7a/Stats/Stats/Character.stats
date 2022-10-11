@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a8098c1a-f86e-11da-bd1a-00112444be1e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Player_RedPrince" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="LizardMaleHero" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="Lizard_Resistance;Lizard_Persuasion;" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="ArmorBoost" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Vitality" type="IntegerStatObjectFieldDefinition" value="250" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="200" />
+        <field name="MovementSpeedBoost" type="IntegerStatObjectFieldDefinition" value="25" />
+        <field name="Accuracy" type="IntegerStatObjectFieldDefinition" value="200" />
+        <field name="Dodge" type="IntegerStatObjectFieldDefinition" value="-100" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="3;5;6;7;10;13;16;18;19;20;21;22;35;36;40;43;49;50;59;53;58;17;1" enumeration_type_name="AttributeFlags" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

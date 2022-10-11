@@ -59,3 +59,11 @@ type "Weapon"
 using "_Animals_Pentaceratops_Rhino_GTS"
 data "WeaponRange" "400"
 
+new entry "_Boost_Weapon_Rune_LOOT_Rune_GTS_Giant"
+type "Weapon"
+using "_Boost_Weapon_Rune_LOOT_Rune_Rock_Giant"
+data "Damage Type" "None"
+data "DamageFromBase" ""
+data "Projectile" ""
+data "Flags" "Unbreakable"
+

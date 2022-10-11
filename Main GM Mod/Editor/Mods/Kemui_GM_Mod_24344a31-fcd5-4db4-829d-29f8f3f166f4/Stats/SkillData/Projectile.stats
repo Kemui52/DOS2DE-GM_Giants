@@ -9,6 +9,7 @@
         <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Char_Creature_Dragon_Prepare_Fire_01_Dummy:Dummy_CastFX" />
         <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Send a fiery sphere that will explode and deal [1]." />
         <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

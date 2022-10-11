@@ -33,10 +33,17 @@ gmstory: replace dirt mounds?
 player light was missing from rhino & incarnate. does it look ok?
 GM can give rune slots to any weapon, but a weapon stat can't come with a rune.
 	gm calls them sockets
-	(we prolly want one either way for Story)
-does lone wolf work in gm mode? lol, nope. almost, but nope.
 making giant damage flinchless. only did male lizard so far
-dragon's fireball doesn't count as fire damage?
+dragon's fireball doesn't count as fire damage???
+remove the default footsteps from the dragonwalk already, it sounds terrible!
+let's test undead dragon polymorph
+	add dragon anims to cancel skill? forgot to look, lol
+	need to add stats and weapon
+redprince stats, dunno if autostats work
+	went with 100 arm, 250 vit, 200 dam (gave to GM stats and made dragon match)
+	compare GM lizard health and damage with dragon
+i want a 1-damage skill just to invoke hostility, Target_Provoke_GTS
+my template armour is showing up in story loot?!
 
 
 Giants to Consider:

@@ -1,0 +1,8 @@
+new skillset "Avatar_RedPrince"
+add skill "Target_Overpower_GTS"
+add skill "Target_CrushCorpse_GTS"
+add skill "Cone_Flamebreath_GTS"
+add skill "Target_RockSpikes_GTS"
+add skill "Quake_Earthquake_GTS"
+add skill "Target_DemonicStare"
+add skill "Jump_PhoenixDive_GTS"
