@@ -4,8 +4,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_RedPrince_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="4e80a06f-2d30-4982-a6e8-9efb661491c8" />
         <field name="NameGroup" type="StringStatObjectFieldDefinition" value="Giant Warhammer" />
@@ -14,8 +14,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_RedPrincess1_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="cd7a598c-aed8-4b25-9f13-43d5e9f04a70" />
         <field name="NameGroup" type="StringStatObjectFieldDefinition" value="Lizard's Cleaver" />
@@ -25,8 +25,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_RedPrincess2_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="391c4f03-a652-412a-89db-d0c365c5c89b" />
         <field name="NameGroup" type="StringStatObjectFieldDefinition" value="Lizard's Cleaver" />
@@ -36,8 +36,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Heavy_Helmet_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="ad6eb2f0-636b-4d69-9568-91e89a838007" />
       </fields>
@@ -45,8 +45,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Heavy_UpperBody_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="71cdfc22-218d-4011-99f1-24437609c458" />
       </fields>
@@ -54,8 +54,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Heavy_Gloves_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="702d9288-a19d-4257-9b1f-fdc04df710d7" />
       </fields>
@@ -63,8 +63,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Heavy_Boots_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="5d5109f6-ae4a-4b7d-8d8f-06e2befa001a" />
       </fields>
@@ -72,8 +72,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Heavy_LowerBody_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="ce3807a5-4b7e-4386-a401-605eea2c7fa9" />
       </fields>
@@ -81,8 +81,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Light_Helmet_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="3d370b40-ee16-49fb-8237-3bf867014514" />
       </fields>
@@ -90,8 +90,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Light_UpperBody_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="582d1ce1-8a84-4760-b9ec-adbc833699fb" />
       </fields>
@@ -99,8 +99,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Light_Gloves_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="80ec6263-c242-40c9-802b-9d00286b7102" />
       </fields>
@@ -108,8 +108,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Light_Boots_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="3fbfb04b-6f4d-4075-b606-aaa876013878" />
       </fields>
@@ -117,8 +117,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Light_LowerBody_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="62ba3664-2b3e-4a3a-b877-acf876e0020f" />
       </fields>
@@ -126,8 +126,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Mage_Helmet_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="2dafd863-b454-479f-b247-ba5f8f8ee85a" />
       </fields>
@@ -135,8 +135,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Mage_UpperBody_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="d5e1ee5c-67c4-4780-a8ca-14fb82595a02" />
       </fields>
@@ -144,8 +144,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Mage_Gloves_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="fe3c1775-46dd-486c-a42a-542ca3c9ad1e" />
       </fields>
@@ -153,8 +153,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Mage_Boots_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="12ea76eb-0a11-4e8d-b2a9-2e27b28ba4bd" />
       </fields>
@@ -162,8 +162,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Mage_LowerBody_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="41a8bbc7-2940-4638-965e-518cf35a734f" />
       </fields>
@@ -171,8 +171,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Civilian_Helmet_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="a80f2cce-d53f-4100-84f6-bb973bfa5eb6" />
       </fields>
@@ -180,8 +180,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Civilian_UpperBody_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="f3670ec5-0a8e-4519-9c69-c8f1bebfcae0" />
       </fields>
@@ -189,8 +189,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Civilian_Gloves_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="e430487e-bbec-49ce-b051-af5e2aefbaee" />
       </fields>
@@ -198,8 +198,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Civilian_Boots_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="e19baba8-518f-4d24-bb5e-4ecfb4d61c82" />
       </fields>
@@ -207,8 +207,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Visual_Civilian_LowerBody_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
         <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="be0f9e5f-103c-4988-af0f-d7d461b1a922" />
       </fields>

@@ -3,7 +3,7 @@
   <stat_objects>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Avatar_RedPrince" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Avatar_RedPrince_X" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_GTS" />
       </fields>
     </stat_object>
@@ -11,42 +11,42 @@
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Avatar_RedPrince" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Avatar_RedPrince_X" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_1" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_Flamebreath_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Avatar_RedPrince" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Avatar_RedPrince_X" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_2" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_RockSpikes_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Avatar_RedPrince" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Avatar_RedPrince_X" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_4" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Quake_Earthquake_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Avatar_RedPrince" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Avatar_RedPrince_X" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Avatar_RedPrince_substat" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_DemonicStare" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Avatar_RedPrince" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Avatar_RedPrince_X" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_3" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Avatar_RedPrince" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Avatar_RedPrince_X" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -39,11 +39,13 @@ remove the default footsteps from the dragonwalk already, it sounds terrible!
 let's test undead dragon polymorph
 	add dragon anims to cancel skill? forgot to look, lol
 	need to add stats and weapon
-redprince stats, dunno if autostats work
+redprince stats
 	went with 100 arm, 250 vit, 200 dam (gave to GM stats and made dragon match)
 	compare GM lizard health and damage with dragon
 i want a 1-damage skill just to invoke hostility, Target_Provoke_GTS
-my template armour is showing up in story loot?!
+my template armour is showing up in story loot?! and the winter dragon fang?!?!
+	still testing, though dunno how to fix arena weaps without a bunch of overrides
+i want a 50% heal skill so I can cheat without fully cheating
 
 
 Giants to Consider:
