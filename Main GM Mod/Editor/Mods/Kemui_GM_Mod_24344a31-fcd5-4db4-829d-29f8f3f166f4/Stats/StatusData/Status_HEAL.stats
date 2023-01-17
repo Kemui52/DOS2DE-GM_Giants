@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c5fef72f-f776-419b-a5a2-a6e9d3e0926c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="HEAL_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="HEAL" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Divine Heal" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="15" enumeration_type_name="FormatStringColor" />
+        <field name="HealStat" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="StatusHealType" />
+        <field name="HealType" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="HealValueType" />
+        <field name="HealValue" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="Necromantic" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

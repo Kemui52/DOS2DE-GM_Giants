@@ -9,6 +9,9 @@
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
         <field name="Requirements" type="StringStatObjectFieldDefinition" value="Strength 0" />
         <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18,6 +21,9 @@
         <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_RedPrincess1_GTS" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
         <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -25,6 +31,9 @@
         <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_RedPrincess2_GTS" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_RedPrincess1_GTS" />
         <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_RedPrincess2_GTS" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -35,6 +44,9 @@
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
         <field name="Requirements" type="StringStatObjectFieldDefinition" value="Strength 0" />
         <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -53,6 +65,7 @@
         <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
         <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="InventoryTabs" />
         <field name="Requirements" type="StringStatObjectFieldDefinition" value="Strength 0" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -60,6 +73,7 @@
         <field name="Name" type="NameStatObjectFieldDefinition" value="Damage_Aura_GTS" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DamageSurface_Deathfog" />
         <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Damage Type" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -69,6 +83,7 @@
         <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="EXPLODE,100,1;KNOCKED_DOWN,100,1" />
         <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="250" />
         <field name="CleaveAngle" type="IntegerStatObjectFieldDefinition" value="60" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -76,6 +91,7 @@
         <field name="Name" type="NameStatObjectFieldDefinition" value="_Animals_Radius_Rhino_GTS" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Animals_Pentaceratops_Rhino_GTS" />
         <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="400" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -86,6 +102,177 @@
         <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
         <field name="Projectile" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaRangerSummoner_Crossbow" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Crossbow" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaRangerSummoner_Crossbow" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaWarfareWater_Sword" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Sword_1H" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaWarfareWater_Sword" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaPolymorphWarfare_Mace2H" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Mace_2H" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaPolymorphWarfare_Mace2H" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaPolymorphSummoning_Wand" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Wand_Air" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaPolymorphSummoning_Wand" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaPolymorphRogue_Dagger" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Dagger" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaPolymorphRogue_Dagger" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaNecromancyWater_Staff" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Staff_Water" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaNecromancyWater_Staff" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaNecromancyWarfare_Axe2H" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Axe_2H" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaNecromancyWarfare_Axe2H" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaNecromancySummoner_Dagger" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Dagger" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaNecromancySummoner_Dagger" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaNecromancyRogue_Dagger_Off" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Dagger" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaNecromancyRogue_Dagger_Off" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaNecromancyRogue_Dagger_Main" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Dagger" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaNecromancyRogue_Dagger_Main" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaFireRogue_Dagger" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Dagger" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaFireRogue_Dagger" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaFireRanger_Bow" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Bow" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaFireRanger_Bow" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthWater_Staff" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Staff_Fire" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaEarthWater_Staff" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthWarfare_Sword" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Sword_1H" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaEarthWarfare_Sword" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthRanger_Crossbow" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Crossbow" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaEarthRanger_Crossbow" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthFire_Wand" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Wand_Fire" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaEarthFire_Wand" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirWater_Staff" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Staff_Air" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaAirWater_Staff" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirWarfare_Spear" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Spear" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaAirWarfare_Spear" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirNecromancy_Wand" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Wand_Air" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaAirNecromancy_Wand" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirFire_Staff" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Staff_Fire" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaAirFire_Staff" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaFireWarfare_Sword2H" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Sword_2H" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaFireWarfare_Sword2H" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
   </stat_objects>

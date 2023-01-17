@@ -9,6 +9,191 @@
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="16" enumeration_type_name="ActPart" />
         <field name="RuneEffectWeapon" type="StringStatObjectFieldDefinition" value="_Boost_Weapon_Rune_LOOT_Rune_GTS_Giant" />
         <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Teleportation_Netherswap_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Teleportation_Netherswap" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="08463001-bc98-4928-8dc4-38de12d247ef" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Teleportation_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Teleportation" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="5ce21e60-797c-4b5c-a179-4153998df7a3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Target_ChickenTouch_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Target_ChickenTouch" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="7be84458-6285-460c-a414-bb5f47343537" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Target_TentacleLash_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Target_TentacleLash" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="f340e0e7-114f-4023-9a7f-10f0ce819802" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Target_ArcaneStitch_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Target_ArcaneStitch" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="4d633985-c142-4a2d-a9b7-1a831f611978" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Target_FireWhip_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Target_FireWhip" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="20e8950f-9f73-4d87-8029-9206667882b2" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Projectile_ChainLightning_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Projectile_ChainLightning" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="1ec68d38-6035-4fbe-b1e3-eba8f8b190bd" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Fireball_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Fireball" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="0fbb32a9-255b-46b6-9adb-df182dfc7e49" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Projectile_InfectiousFlame_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Projectile_InfectiousFlame" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="2e5e65ba-696e-4593-afec-1d3402f02449" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Projectile_IceFan_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Projectile_IceFan" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="2839255b-b444-42fb-bd36-4fafec35797f" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Projectile_PyroclasticEruption_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Projectile_PyroclasticEruption" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="5404fef7-60da-4664-8e4f-104a43383cec" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_ProjectileStrike_DazingBolt_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_ProjectileStrike_DazingBolt" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="7ce0ad62-bae5-496a-9891-5aa72943f9eb" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_HailStrike_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_HailStrike" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="69401e73-6ab9-4147-9db9-b2a32d2b7a19" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_MeteorShower_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_MeteorShower" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="c53b84ec-5f2c-4632-8764-ba44e0e27a6e" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_HailStorm_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_HailStorm" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="9b086f39-9ebc-427a-a359-194cdbd0db29" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Cone_SilencingStare_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Cone_SilencingStare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="8f09ad8b-da70-43f0-a1fe-37f3a794a0d1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Cone_SteamLance_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Cone_SteamLance" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="4cb55795-0f81-4d15-b383-47c0e13c2f76" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Zone_LaserRay_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Zone_LaserRay" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="4ffd580f-643b-44d9-be2e-2acc2b90e6fb" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Shout_PoisonWave_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Shout_PoisonWave" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="7b4d64fd-eddc-42ad-ac9a-18822c0cdc2d" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Projectile_Superconductor_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Projectile_Superconductor" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="64880b9c-3d4e-4e41-8b97-30ee1b2bfa2c" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Shout_NecromancerTotems_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Shout_NecromancerTotems" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="7cb9aef7-528e-4265-a0d1-5fcd4d67eee3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_Target_Charm_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_Target_Charm" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="5744d0e6-1c3f-457f-aa24-7c841dfffbb8" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SCROLL_LighningBolt_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SCROLL_LighningBolt" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="0481a64d-2636-4bd1-a621-326f9b425af1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
   </stat_objects>

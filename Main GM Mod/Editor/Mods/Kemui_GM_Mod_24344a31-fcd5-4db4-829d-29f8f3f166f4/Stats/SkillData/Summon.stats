@@ -26,6 +26,7 @@
         <field name="TemplateOverride" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
         <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon Ultimate Incarnate" />
         <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon a giant elemental demon who can embue itself with a variety of powers." />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
       </fields>
     </stat_object>
   </stat_objects>

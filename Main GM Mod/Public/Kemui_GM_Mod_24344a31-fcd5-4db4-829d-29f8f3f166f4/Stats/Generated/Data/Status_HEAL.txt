@@ -1,0 +1,12 @@
+new entry "HEAL_GTS"
+type "StatusData"
+data "StatusType" "HEAL"
+using "HEAL"
+data "DisplayName" "HEAL_GTS_DisplayName"
+data "DisplayNameRef" "Divine Heal"
+data "FormatColor" "Gold"
+data "HealStat" "Vitality"
+data "HealType" "Percentage"
+data "HealValue" "50"
+data "Necromantic" "Yes"
+

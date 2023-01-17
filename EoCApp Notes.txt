@@ -43,9 +43,17 @@ redprince stats
 	went with 100 arm, 250 vit, 200 dam (gave to GM stats and made dragon match)
 	compare GM lizard health and damage with dragon
 i want a 1-damage skill just to invoke hostility, Target_Provoke_GTS
-my template armour is showing up in story loot?! and the winter dragon fang?!?!
-	still testing, though dunno how to fix arena weaps without a bunch of overrides
-i want a 50% heal skill so I can cheat without fully cheating
+	lower its damage more
+realizing there needs to be an Overpower that attacks friendlies
+	and maybe an object breaker? Hmmm...
+	normal version of whirlwind? Hmmmm...
+if doing arena chars, gotta make a new template for some sort of balance
+	no starting MP
+
+Red Prince Screenshots:
+	as companion pre-recruit
+	versus assassin
+	stats w/o lone wolf?
 
 
 Giants to Consider:

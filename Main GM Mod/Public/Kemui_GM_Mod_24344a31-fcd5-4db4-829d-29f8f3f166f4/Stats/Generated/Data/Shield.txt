@@ -1,0 +1,18 @@
+new entry "ArenaEarthWarfare_Shield"
+type "Shield"
+using "WPN_Shield"
+data "ItemGroup" "ArenaEarthWarfare_Shield"
+data "ObjectCategory" ""
+
+new entry "ArenaWarfareWater_Shield"
+type "Shield"
+using "WPN_Shield"
+data "ItemGroup" "ArenaWarfareWater_Shield"
+data "ObjectCategory" ""
+
+new entry "ArenaPolymorphSummoning_Shield"
+type "Shield"
+using "WPN_Shield"
+data "ItemGroup" "ArenaPolymorphSummoning_Shield"
+data "ObjectCategory" ""
+
