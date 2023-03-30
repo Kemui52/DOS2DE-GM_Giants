@@ -9,7 +9,7 @@
         <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
         <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
         <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!Ally;!Dead" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="NonSelf;!Dead" />
         <field name="Requirement" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="SkillRequirement" />
         <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="2" />
         <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Deal [1] and set Knocked Down in a [2] radius." />
@@ -24,6 +24,8 @@
         <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
         <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="150" />
         <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="AoEConditions" type="StringStatObjectFieldDefinition" value="!Ally;!Dead" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="!Ally;!Dead" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -442,7 +444,7 @@
         <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="SkillAbility" />
         <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="1" />
         <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
-        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
         <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="10" />
         <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
@@ -469,6 +471,7 @@
         <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Cast_Curse_Shout_Root_01" />
         <field name="Stealth" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="IgnoreHeight" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

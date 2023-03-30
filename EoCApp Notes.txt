@@ -22,6 +22,13 @@ Jump Up Ladders even though it means down
 Footstep Weight
 Scale
 
+Arena Checklist:
+Duplicate finalized Template
+Set no starting MP and set Template to use new Stats
+Remove GM category
+Template info at bottom will reset when duplicating for some reason
+	(Scale, Footstep Weight)
+
 
 Todo:
 Add damage buff ring?
@@ -41,19 +48,16 @@ let's test undead dragon polymorph
 	need to add stats and weapon
 redprince stats
 	went with 100 arm, 250 vit, 200 dam (gave to GM stats and made dragon match)
-	compare GM lizard health and damage with dragon
+	compared GM lizard health and damage with dragon, good
 i want a 1-damage skill just to invoke hostility, Target_Provoke_GTS
-	lower its damage more
+	lower its damage more, trying a damage of 0? test in story
 realizing there needs to be an Overpower that attacks friendlies
-	and maybe an object breaker? Hmmm...
-	normal version of whirlwind? Hmmmm...
-if doing arena chars, gotta make a new template for some sort of balance
-	no starting MP
+	trying ally target, no ally AoE --works, outline glitch always happened, lol
+		and maybe an object breaker? Hmmm...
+		normal version of whirlwind? Hmmmm...
 
-Red Prince Screenshots:
-	as companion pre-recruit
-	versus assassin
-	stats w/o lone wolf?
+Main Screenshots:
+	retake the stats screenie w/ skeletal lizard
 
 
 Giants to Consider:
