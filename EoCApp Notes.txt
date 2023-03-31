@@ -46,18 +46,19 @@ remove the default footsteps from the dragonwalk already, it sounds terrible!
 let's test undead dragon polymorph
 	add dragon anims to cancel skill? forgot to look, lol
 	need to add stats and weapon
-redprince stats
-	went with 100 arm, 250 vit, 200 dam (gave to GM stats and made dragon match)
-	compared GM lizard health and damage with dragon, good
-i want a 1-damage skill just to invoke hostility, Target_Provoke_GTS
-	lower its damage more, trying a damage of 0? test in story
-realizing there needs to be an Overpower that attacks friendlies
-	trying ally target, no ally AoE --works, outline glitch always happened, lol
-		and maybe an object breaker? Hmmm...
-		normal version of whirlwind? Hmmmm...
+Target_Provoke_GTS can't have a fixed damage of 1, it seems
+maybe add an object breaker? Hmmm...
 
 Main Screenshots:
 	retake the stats screenie w/ skeletal lizard
+	thumbnail?
+Collection:
+	banner?
+Red Prince:
+	thumbnail?
+ArmorSets:
+	thumbnail, glowwy shadow of devourer
+	devourer at night
 
 
 Giants to Consider:

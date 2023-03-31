@@ -1,6 +1,6 @@
 # DOS2 Giants Mod
 
-Adds various overpowered giant monsters to Game Master mode for personal enjoyment. Not intended for typical GM use, but l guess no one's stopping you. Oh yeah, and made on the Definitive Edition.
+Adds various overpowered giant monsters to Game Master and other modes for personal enjoyment. Not intended for typical GM use, but l guess no one's stopping you. Oh yeah, and made on the Definitive Edition.
 
 ***Spoiler Warning!*** Mod adds and will add story spoiler characters and creatures to the character list.
 
