@@ -43,10 +43,9 @@ GM can give rune slots to any weapon, but a weapon stat can't come with a rune.
 making giant damage flinchless. only did male lizard so far
 dragon's fireball doesn't count as fire damage???
 remove the default footsteps from the dragonwalk already, it sounds terrible!
+	does it? i haven't been hearing it, somehow
 let's test undead dragon polymorph
-	add dragon anims to cancel skill? forgot to look, lol
-	need to add stats and weapon
-Target_Provoke_GTS can't have a fixed damage of 1, it seems
+	level 10 HP is 1700, weapon is 34-36, check in Story
 maybe add an object breaker? Hmmm...
 
 Main Screenshots:
