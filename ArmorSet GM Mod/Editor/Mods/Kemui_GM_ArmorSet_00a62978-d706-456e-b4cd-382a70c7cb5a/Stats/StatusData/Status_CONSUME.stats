@@ -16,5 +16,18 @@
         <field name="WeaponOverride" type="StringStatObjectFieldDefinition" value="_Animals_Dragon_A" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="REMOVEMORPHSTATUS_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="UNDEADDRAGONSTATUS_GTS" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Revert Form" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Returning to normal form." />
+        <field name="Icon" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="FormatStringColor" />
+        <field name="StackPriority" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="Items" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="WeaponOverride" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -45,14 +45,14 @@
     <stat_object is_substat="true">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_4" />
-        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_EnemyBlackShroud" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_EnemyBlackShroud_GTS" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_8" />
-        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_EnemyGraspOfTheStarved" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_EnemyGraspOfTheStarved_GTS" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS" />
       </fields>
     </stat_object>

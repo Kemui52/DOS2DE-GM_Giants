@@ -1,0 +1,18 @@
+new entry "Target_EnemyBlackShroud_GTS"
+type "SkillData"
+data "SkillType" "Target"
+using "Target_EnemyBlackShroud"
+data "Magic Cost" "0"
+data "CastTextEvent" "cast"
+
+new entry "Target_EnemyGraspOfTheStarved_GTS"
+type "SkillData"
+data "SkillType" "Target"
+using "Target_EnemyGraspOfTheStarved"
+data "Magic Cost" "0"
+data "PrepareAnimationInit" "skill_prepare_water_01_start"
+data "PrepareAnimationLoop" "skill_prepare_water_01_loop"
+data "CastAnimation" "skill_cast_self_water_01_cast"
+data "CastSelfAnimation" "skill_cast_self_water_01_cast"
+data "CastTextEvent" "cast"
+
