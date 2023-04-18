@@ -19,7 +19,7 @@
         <field name="Name" type="NameStatObjectFieldDefinition" value="Incarnate_GTS" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="Lifetime" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="Lifetime" type="IntegerStatObjectFieldDefinition" value="100" />
         <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="INF_RANGED_GTS,100,-1" />
         <field name="Template" type="StringStatObjectFieldDefinition" value="7888b2ab-56f4-46ac-b308-2b12efb97ab8" />
         <field name="TemplateAdvanced" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
@@ -27,6 +27,37 @@
         <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon Ultimate Incarnate" />
         <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon a giant elemental demon who can embue itself with a variety of powers." />
         <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Rhino_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Incarnate_GTS" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="9ac5a534-902d-4832-bf79-ba4e6f71901d" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Portrait_BLD_Lizards_Wagon_A" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon Rhinoceros" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon a giant rhino." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="DragonDark_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Rhino_GTS" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="a0919d18-4719-4a78-a0a8-a108f66fb82a" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Portrait_Creatures_PurgedDragon_A" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon Black Dragon" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon a powerful black dragon." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="DragonFrost_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DragonDark_GTS" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="09938481-2200-428b-a2e2-38817b59b321" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Portrait_Creatures_PurgedDragon_A" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon Frost Dragon" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon a powerful frost dragon." />
       </fields>
     </stat_object>
   </stat_objects>

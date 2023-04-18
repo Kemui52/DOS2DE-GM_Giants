@@ -10,6 +10,7 @@
         <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Send a fiery sphere that will explode and deal [1]." />
         <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
         <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Cast_Hand_01:Jaw_02_Bone:cast;RS3_FX_Skills_Fire_Throw_Cast_Hand_01:Jaw_02_Bone" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

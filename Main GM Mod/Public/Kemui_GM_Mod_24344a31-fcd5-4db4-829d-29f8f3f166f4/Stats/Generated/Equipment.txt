@@ -66,3 +66,9 @@ new equipment "Equip_Player_GTS"
 add equipmentgroup
 add equipment entry "WPN_RedPrince_GTS"
 
+new equipment "Equip_Tiger_GTS"
+add equipmentgroup
+add equipment entry "_Animals_Tiger_A_GTS"
+add equipmentgroup
+add equipment entry "NoShield"
+

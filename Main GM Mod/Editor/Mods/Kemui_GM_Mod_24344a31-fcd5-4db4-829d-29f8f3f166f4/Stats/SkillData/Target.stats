@@ -149,6 +149,31 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="TigerChomp_GTS" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="EXPLODE,100,1;SELF:CONSUME_CORPSE,100,1" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Chomp" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Take a bite out of a dead body, destroying it and healing yourself a small amount." />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_loop" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="CrushCorpse_GTS" />
+        <field name="Requirement" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="SkillRequirement" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="PowerInfusion_GTS" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="PowerInfusion" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
@@ -434,6 +459,14 @@
         <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Earth_Prepare_Earth_Foot_01,KeepRot,Detach:Dummy_Root:foot02;RS3_FX_Skills_Earth_Prepare_Earth_Foot_02,KeepRot,Detach:Dummy_Root:foot01;RS3_FX_Skills_Earth_Prepare_Earth_Root_01,KeepRot,Detach:Dummy_Root:root01;RS3_FX_Skills_Earth_Prepare_Earth_Root_01_Addon_Oil,KeepRot,Detach:Dummy_Root:root01;RS3_FX_Skills_Earth_Prepare_Earth_Hand_01_Oil:Dummy_L_HandFX;RS3_FX_Skills_Earth_Prepare_Earth_Hand_01_Oil:Dummy_R_HandFX" />
         <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_earth_01_cast" />
         <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_earth_01_cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="RockSpikes_Rhino_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RockSpikes_GTS" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Earth_Prepare_Earth_Foot_01,KeepRot,Detach:Dummy_Root;RS3_FX_Skills_Earth_Prepare_Earth_Root_01,KeepRot,Detach:Dummy_Root;RS3_FX_Skills_Earth_Prepare_Earth_Root_01_Addon_Oil,KeepRot,Detach:Dummy_Root;RS3_FX_Skills_Earth_Prepare_Earth_Hand_01_Oil:Dummy_L_HandFX;RS3_FX_Skills_Earth_Prepare_Earth_Hand_01_Oil:Dummy_R_HandFX" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

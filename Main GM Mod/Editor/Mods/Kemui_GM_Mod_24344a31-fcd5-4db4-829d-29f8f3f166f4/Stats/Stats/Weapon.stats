@@ -3,112 +3,6 @@
   <stat_objects>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_RedPrince_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Inquisitor_Mace_2H_Humans" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_RedPrince_GTS" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Strength 0" />
-        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_RedPrincess1_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Battlemage_Axe_1H_Lizards" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_RedPrincess1_GTS" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_RedPrincess2_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_RedPrincess1_GTS" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_RedPrincess2_GTS" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="RC_Almira_Melee_Dagger_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Daggers" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="WPN_Dagger_2H_Human_01" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Strength 0" />
-        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_Animals_Dragon_A" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_NpcDaggers" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="EMPTY" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="IsTwoHanded" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="2" />
-        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="100" />
-        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="250" />
-        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="10" />
-        <field name="WeaponType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="WeaponType" />
-        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="BLEEDING,5,2" />
-        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
-        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="InventoryTabs" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Strength 0" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Damage_Aura_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DamageSurface_Deathfog" />
-        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Damage Type" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_Animals_Pentaceratops_Rhino_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Animals_Pentaceratops_A" />
-        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="EXPLODE,100,1;KNOCKED_DOWN,100,1" />
-        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="250" />
-        <field name="CleaveAngle" type="IntegerStatObjectFieldDefinition" value="60" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_Animals_Radius_Rhino_GTS" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Animals_Pentaceratops_Rhino_GTS" />
-        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="400" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_Boost_Weapon_Rune_LOOT_Rune_GTS_Giant" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Boost_Weapon_Rune_LOOT_Rune_Rock_Giant" />
-        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Damage Type" />
-        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
-        <field name="Projectile" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaRangerSummoner_Crossbow" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Crossbow" />
         <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaRangerSummoner_Crossbow" />
@@ -272,6 +166,125 @@
         <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaFireWarfare_Sword2H" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Sword_2H" />
         <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ArenaFireWarfare_Sword2H" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_RedPrince_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Inquisitor_Mace_2H_Humans" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_RedPrince_GTS" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Strength 0" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_RedPrincess1_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_Battlemage_Axe_1H_Lizards" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_RedPrincess1_GTS" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_RedPrincess2_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="WPN_RedPrincess1_GTS" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Visual_RedPrincess2_GTS" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="RC_Almira_Melee_Dagger_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Daggers" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="WPN_Dagger_2H_Human_01" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Strength 0" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Animals_Dragon_A" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_NpcDaggers" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="EMPTY" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="IsTwoHanded" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="250" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="WeaponType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="WeaponType" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="BLEEDING,5,2" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="InventoryTabs" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Strength 0" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Animals_Pentaceratops_Rhino_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Animals_Pentaceratops_A" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="EXPLODE,100,1;KNOCKED_DOWN,100,1" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="250" />
+        <field name="CleaveAngle" type="IntegerStatObjectFieldDefinition" value="60" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Animals_Radius_Rhino_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Animals_Pentaceratops_Rhino_GTS" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="400" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Comment" type="CommentStatObjectFieldDefinition" value="Extra weapon range for small-radius rhino." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Animals_Tiger_A_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Animals_Tiger_A" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Strength 0" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="70" />
+        <field name="CleaveAngle" type="IntegerStatObjectFieldDefinition" value="40" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="SELF:OnHit:VAMPIRIC_TOUCH,100,1;EXPLODE,100,1;CRIPPLED_GTS,100,1;BLEEDING,100,3;" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="CleavePercentage" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Damage_Aura_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DamageSurface_Deathfog" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Damage Type" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Boost_Weapon_Rune_LOOT_Rune_GTS_Giant" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Boost_Weapon_Rune_LOOT_Rune_Rock_Giant" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Damage Type" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
+        <field name="Projectile" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="99" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="99" />
         <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>

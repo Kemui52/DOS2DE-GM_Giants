@@ -41,12 +41,9 @@ player light was missing from rhino & incarnate. does it look ok?
 GM can give rune slots to any weapon, but a weapon stat can't come with a rune.
 	gm calls them sockets
 making giant damage flinchless. only did male lizard so far
-dragon's fireball doesn't count as fire damage???
-	sure as heck has FX on its hand
-let's test undead dragon polymorph
-	WHY DOES THE STATUS WEAPON READ FROM THE ROOT TEMPLATE INSTEAD OF THE ACTIVE TEMPLATE WHYYYYYY
-	the weapon status will sometimes fail to remove. what is this, XCOM2?
 maybe add an object breaker? Hmmm...
+summons with loremaster can steal your magnifying glass, removed
+does 100 turns for summon look okay?
 
 Main Screenshots:
 	retake the stats screenie w/ skeletal lizard
