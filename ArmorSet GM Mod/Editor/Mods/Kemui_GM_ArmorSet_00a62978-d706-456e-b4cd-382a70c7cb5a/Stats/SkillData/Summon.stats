@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="81d21913-ef1d-4fd8-bc01-1dcee5d3e4eb">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="DragonDevourer_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DragonDark_GTS" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="992b72d7-89e9-4d55-ab6d-47bbd137fd23" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="DEV06_Dragon" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon The Devourer" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon the legendary Devourer." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="DragonUndead_GTS" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="41502b27-2d73-444f-afef-53b2029265f8" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="DEV06_Dragon" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon Undead Dragon" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon a powerful undead dragon." />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

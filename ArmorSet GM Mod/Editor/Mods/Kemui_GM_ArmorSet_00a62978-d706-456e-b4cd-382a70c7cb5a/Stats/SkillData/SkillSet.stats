@@ -77,5 +77,74 @@
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="DevourerDragon_GTS_Summon" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_Dragon_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_9_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_Dragon_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_9_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash_Dragon_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_9_substat_2" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_EnemyDragonWhirlwind" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_9_substat_3" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_EnemyDragonBreath" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_9_substat_4" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_EnemyFireball_Dragon_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_9_substat_7" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_DragonDive_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_9_substat_8" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_DragonFlight" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_9_substat_9" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_EnemyTerrify_Dragon" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="DevourerDragon_GTS_Summon_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_BanishSelf" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DevourerDragon_GTS_Summon" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
