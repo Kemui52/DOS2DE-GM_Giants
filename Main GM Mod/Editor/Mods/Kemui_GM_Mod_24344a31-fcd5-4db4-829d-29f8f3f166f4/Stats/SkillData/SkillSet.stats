@@ -1062,5 +1062,39 @@
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Tiger_GTS" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Tiger_GTS_Summon" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_Rhino_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_84_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_TigerChomp_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Tiger_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_84_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_RockSpikes_Rhino_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Tiger_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_84_substat_2" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Quake_Earthquake_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Tiger_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Tiger_GTS_Summon_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_BanishSelf" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Tiger_GTS_Summon" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

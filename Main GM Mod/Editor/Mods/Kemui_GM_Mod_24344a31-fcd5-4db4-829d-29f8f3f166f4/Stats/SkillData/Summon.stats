@@ -27,6 +27,7 @@
         <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon Ultimate Incarnate" />
         <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon a giant elemental demon who can embue itself with a variety of powers." />
         <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -58,6 +59,16 @@
         <field name="Icon" type="StringStatObjectFieldDefinition" value="Portrait_Creatures_PurgedDragon_A" />
         <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon Frost Dragon" />
         <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon a powerful frost dragon." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Tiger_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DragonDark_GTS" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="4d009828-aee5-4061-854b-eb1c9dbc2a8d" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Portrait_Animals_Tiger_A" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon Forest Tiger" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon a giant tiger." />
       </fields>
     </stat_object>
   </stat_objects>
