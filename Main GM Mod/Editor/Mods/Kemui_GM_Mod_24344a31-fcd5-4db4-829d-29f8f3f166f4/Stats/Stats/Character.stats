@@ -166,7 +166,7 @@
         <field name="APRecovery" type="IntegerStatObjectFieldDefinition" value="4" />
         <field name="Movement" type="IntegerStatObjectFieldDefinition" value="700" />
         <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="101" enumeration_type_name="PreciseQualifier" />
-        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="200" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="300" />
         <field name="Armor" type="IntegerStatObjectFieldDefinition" value="250" />
         <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="400" />
         <field name="Vitality" type="IntegerStatObjectFieldDefinition" value="300" />
@@ -243,7 +243,7 @@
         <field name="MPStart" type="IntegerStatObjectFieldDefinition" value="3" />
         <field name="StepsType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="StepsType" />
         <field name="Movement" type="IntegerStatObjectFieldDefinition" value="700" />
-        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="200" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

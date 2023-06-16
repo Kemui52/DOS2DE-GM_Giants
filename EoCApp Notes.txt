@@ -42,9 +42,7 @@ GM can give rune slots to any weapon, but a weapon stat can't come with a rune.
 	gm calls them sockets
 making giant damage flinchless. only did male lizard so far
 maybe add an object breaker? Hmmm...
-summons with loremaster can steal your magnifying glass, removed
-does 100 turns for summon look okay?
-reminder to add skeletal dragon summons
+
 
 Main Screenshots:
 	retake the stats screenie w/ skeletal lizard

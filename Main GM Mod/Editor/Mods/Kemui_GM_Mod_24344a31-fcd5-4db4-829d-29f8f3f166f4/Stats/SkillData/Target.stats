@@ -585,7 +585,7 @@
         <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Channeling_Source" />
         <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Divine Restoration" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Restore vitality of target character, even if undead.&lt;br&gt;Cures various damaging statuses, as well." />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Restore vitality of target character, even if undead. Cures various damaging statuses, as well." />
         <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
         <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_divine_01_start" />
         <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_divine_01_loop" />

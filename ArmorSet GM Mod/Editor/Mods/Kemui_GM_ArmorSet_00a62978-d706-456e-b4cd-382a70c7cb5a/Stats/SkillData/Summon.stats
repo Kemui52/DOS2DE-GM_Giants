@@ -18,6 +18,7 @@
         <field name="Icon" type="StringStatObjectFieldDefinition" value="DEV06_Dragon" />
         <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon Undead Dragon" />
         <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon a powerful undead dragon." />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DragonDevourer_GTS" />
       </fields>
     </stat_object>
   </stat_objects>

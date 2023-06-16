@@ -22,7 +22,7 @@
         <field name="MovementSpeedBoost" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="105" />
         <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-100" />
-        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="200" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="300" />
         <field name="APStart" type="IntegerStatObjectFieldDefinition" value="2" />
         <field name="APRecovery" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Armor" type="IntegerStatObjectFieldDefinition" value="225" />
