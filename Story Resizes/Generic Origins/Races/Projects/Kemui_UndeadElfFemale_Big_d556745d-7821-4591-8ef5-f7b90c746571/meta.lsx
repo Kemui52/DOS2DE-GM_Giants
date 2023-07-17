@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<save>
+    <header version="2" />
+    <version major="3" minor="6" revision="6" build="0" />
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="Module" value="d556745d-7821-4591-8ef5-f7b90c746571" type="23" />
+            <attribute id="Name" value="Kemui_UndeadElfFemale_Big" type="23" />
+            <attribute id="Type" value="Add-on" type="23" />
+            <attribute id="UUID" value="dd3ce9c8-c309-45f7-8c89-67f067263ccc" type="23" />
+        </node>
+    </region>
+</save>

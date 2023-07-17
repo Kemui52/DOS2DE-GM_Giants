@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<save>
+    <header version="2" />
+    <version major="3" minor="6" revision="6" build="0" />
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="Module" value="241c08e7-b7e0-473a-aeee-64253854fe05" type="23" />
+            <attribute id="Name" value="Kemui_DwarfMale_Big" type="23" />
+            <attribute id="Type" value="Add-on" type="23" />
+            <attribute id="UUID" value="1b5b5193-bd9f-4562-a0e6-533e96e0ab9e" type="23" />
+        </node>
+    </region>
+</save>
