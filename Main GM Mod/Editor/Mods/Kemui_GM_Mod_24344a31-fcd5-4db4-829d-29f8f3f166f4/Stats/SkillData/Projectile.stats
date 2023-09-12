@@ -89,10 +89,54 @@
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="BouncingShield_GTS" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="BouncingShield" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
         <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
         <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Death Type" />
         <field name="HeightOffset" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Overpower_Ranged_GTS" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="SkillTier" />
+        <field name="Requirement" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="SkillRequirement" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="KNOCKED_DOWN_GTS,100,1" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="ForceTarget" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="NonSelf;!Dead" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="ProjectileCount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="ProjectileDelay" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="fbedb5d6-e0ee-4182-b7b6-aa67074ec244" />
+        <field name="IgnoreVisionBlock" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Ranger_PowerAttack" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Overpower" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="A devastating shot that deals [1] and Knocks Down any targets it hits. Damage increases with distance." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_weapon_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_weapon_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Warrior_Prepare_Hand_01:Dummy_R_Hand,Dummy_L_Hand;RS3_FX_Skills_Warrior_Prepare_Weapon_Root_01:Dummy_R_Hand;RS3_FX_Skills_Earth_Prepare_Weapon_Root_01;RS3_FX_Skills_Earth_Prepare_Weapon_Body_01:Dummy_R_Hand;RS3_FX_Skills_Fire_Prepare_Weapon_ArrowFX_SkyShot_01:Dummy_ProjectileFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_attack_precision_01_cast" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Enemy;!Dead" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Death Type" />
+        <field name="ForkingConditions" type="StringStatObjectFieldDefinition" value="!Ally;!Dead" />
+        <field name="Distance Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="ChanceToPierce" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="MaxPierceCount" type="IntegerStatObjectFieldDefinition" value="10" />
       </fields>
     </stat_object>
   </stat_objects>

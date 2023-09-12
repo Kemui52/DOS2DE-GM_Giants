@@ -240,7 +240,7 @@
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="_Animals_Pentaceratops_Rhino_GTS" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Animals_Pentaceratops_A" />
-        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="EXPLODE,100,1;KNOCKED_DOWN,100,1" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="EXPLODE,100,1;KNOCKED_DOWN_GTS,100,1" />
         <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="250" />
         <field name="CleaveAngle" type="IntegerStatObjectFieldDefinition" value="60" />
         <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
@@ -265,6 +265,15 @@
         <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="SELF:OnHit:VAMPIRIC_TOUCH,100,1;EXPLODE,100,1;CRIPPLED_GTS,100,1;BLEEDING,100,3;" />
         <field name="ObjectCategory" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
         <field name="CleavePercentage" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Creatures_Troll_A_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Creatures_Troll_A" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="EXPLODE,100,1" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

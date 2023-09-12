@@ -22,5 +22,15 @@
         <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="KNOCKED_DOWN_GTS,100,1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Earthquake_Troll_GTS" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_earth_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_earth_01_loop" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_attack_power_01_cast" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Earthquake_GTS" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="effect" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

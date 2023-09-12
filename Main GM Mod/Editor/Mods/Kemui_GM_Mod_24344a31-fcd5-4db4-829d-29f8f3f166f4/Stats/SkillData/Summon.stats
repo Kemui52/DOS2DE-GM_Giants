@@ -71,5 +71,65 @@
         <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon a giant tiger." />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Troll_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DragonDark_GTS" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="91997ed8-d2e8-4284-82bb-e4748980a425" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Portrait_Creatures_Troll_A" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon Forest Troll" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon a giant forest troll." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="TrollFire_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DragonDark_GTS" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="9ab82578-1d0a-4076-a8ab-3c1131660cc4" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Portrait_Creatures_Troll_A" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon Mountain Troll" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon a giant fire troll." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="TrollUndead_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DragonDark_GTS" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="1793d1c7-5915-4b31-8225-0e62070ceda1" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Portrait_Creatures_Undead_Bonepile_Troll_A" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon Kedelon" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon Kedelon the Bone Crusher." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="TrollVoid_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DragonDark_GTS" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="d99b1f31-07f5-4a67-a170-09f8c58b8ce2" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Portrait_Creatures_Voidwoken_Troll_A" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon Void Brute" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon a giant void brute." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Almira_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DragonDark_GTS" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="47d684cc-9bbe-47fe-951c-c6bbc950c6f0" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="d80be1aa-afee-43f1-89c5-9303abc302dd_10092648266203141199-RC_Humans_Melee_Dagger_Dual_(Icon_Human_Female)" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon Almira" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon Almira in giant form." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="RedPrincess_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="DragonDark_GTS" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="baa07c49-53a4-4250-a43d-ea9c8f12de7b" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="0d3764d6-6e8d-46fc-bc57-875127d7d92e_9372131570602737697-ARX_RedPrincess_Naked_(Icon_Lizard_Female)" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Summon Red Princess" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Summon Sadha the Red Princess in giant form." />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -58,6 +58,68 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="RedPrince_GTS_Summon" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_90" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RedPrince_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_97" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RedPrince_GTS_Summon" />
+        <field name="Comment" type="CommentStatObjectFieldDefinition" value="Cone_GroundSmash_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_98" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RedPrince_GTS_Summon" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_Flamebreath_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_99" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_RockSpikes_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RedPrince_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_100" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RedPrince_GTS_Summon" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Quake_Earthquake_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_101" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RedPrince_GTS_Summon" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_DemonicStare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_89_substat_6" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RedPrince_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="RedPrince_GTS_Summon_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_BanishSelf" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="RedPrince_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="HeroUndead_GTS" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_GTS" />
       </fields>
@@ -259,6 +321,87 @@
         <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_62" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_GTS" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Almira_GTS_Summon" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_Human_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_102" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_Human_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_103" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS_Summon" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_RockSpikes_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_104" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS_Summon" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Quake_Earthquake_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_105" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Restoration" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_106" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_FrostAura" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_107" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_SoulMate" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_108" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_89_substat_7" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Charm" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_89_substat_8" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_89_substat_9" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Almira_GTS_Summon_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_BanishSelf" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Almira_GTS_Summon" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1094,6 +1237,212 @@
         <field name="Name" type="NameStatObjectFieldDefinition" value="Tiger_GTS_Summon_substat_0" />
         <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_BanishSelf" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Tiger_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Troll_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_Troll_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Troll_GTS_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_Troll_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Troll_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_84" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash_Troll_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Troll_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_86" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_RockSpikes_Troll_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Troll_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_87" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Quake_Earthquake_Troll_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Troll_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_88" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_EnemyFortify_Shambling" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Troll_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_85" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_Rhino_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Troll_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Troll_GTS_Summon" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_Troll_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_91" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_Troll_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Troll_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_92" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash_Troll_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Troll_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_93" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_RockSpikes_Troll_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Troll_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_94" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Quake_Earthquake_Troll_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Troll_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_95" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_EnemyFortify_Shambling" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Troll_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_96" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_Rhino_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Troll_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Troll_GTS_Summon_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_BanishSelf" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Troll_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="TrollFire_GTS" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_Troll_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_90_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_Troll_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="TrollFire_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_90_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash_Troll_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="TrollFire_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_90_substat_3" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_SpontaneousCombustion" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="TrollFire_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_90_substat_5" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_EnemyIgnition_Troll" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="TrollFire_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_90_substat_4" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_FlamingTongues" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="TrollFire_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_90_substat_2" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_Rhino_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="TrollFire_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="TrollFire_GTS_Summon" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower_Troll_GTS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_89_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CrushCorpse_Troll_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="TrollFire_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_89_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash_Troll_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="TrollFire_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_89_substat_2" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_SpontaneousCombustion" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="TrollFire_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_89_substat_3" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_EnemyIgnition_Troll" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="TrollFire_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_89_substat_4" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_FlamingTongues" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="TrollFire_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_89_substat_5" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive_Rhino_GTS" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="TrollFire_GTS_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="TrollFire_GTS_Summon_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_BanishSelf" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="TrollFire_GTS_Summon" />
       </fields>
     </stat_object>
   </stat_objects>

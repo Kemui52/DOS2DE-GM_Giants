@@ -20,3 +20,12 @@ data "PrepareEffect" "RS3_FX_Skills_Earth_Prepare_Shout_Root_01,KeepRot:Dummy_Ro
 data "Memory Cost" "0"
 data "MemorizationRequirements" ""
 
+new entry "Quake_Earthquake_Troll_GTS"
+type "SkillData"
+data "SkillType" "Quake"
+using "Quake_Earthquake_GTS"
+data "PrepareAnimationInit" "skill_prepare_earth_01_start"
+data "PrepareAnimationLoop" "skill_prepare_earth_01_loop"
+data "CastAnimation" "skill_attack_power_01_cast"
+data "CastTextEvent" "effect"
+

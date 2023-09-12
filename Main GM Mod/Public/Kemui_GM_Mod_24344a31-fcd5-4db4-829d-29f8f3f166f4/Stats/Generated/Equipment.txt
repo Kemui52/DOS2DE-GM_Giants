@@ -22,6 +22,22 @@ add equipment entry "Civilian_LowerBody_GTS"
 add equipmentgroup
 add equipment entry "Civilian_Boots_GTS"
 
+new equipment "Equip_RedPrincess_GTS_Summon"
+add equipmentgroup
+add equipment entry "WPN_RedPrincess1_GTS"
+add equipmentgroup
+add equipment entry "WPN_RedPrincess2_GTS"
+add equipmentgroup
+add equipment entry "Light_UpperBody_GTS"
+add equipmentgroup
+add equipment entry "Light_LowerBody_GTS"
+add equipmentgroup
+add equipment entry "Light_Boots_GTS"
+add equipmentgroup
+add equipment entry "Mage_Helmet_GTS"
+add equipmentgroup
+add equipment entry "Mage_Gloves_GTS"
+
 new equipment "Equip_WarfareWater_GTS"
 add equipmentgroup
 add equipment entry "ArenaWarfareWater_Sword"
@@ -50,6 +66,22 @@ add equipment entry "Mage_UpperBody_GTS"
 add equipmentgroup
 add equipment entry "Mage_LowerBody_GTS"
 
+new equipment "Equip_Almira_GTS_Summon"
+add equipmentgroup
+add equipment entry "RC_Almira_Melee_Dagger_GTS"
+add equipmentgroup
+add equipment entry "RC_Almira_Melee_Dagger_GTS"
+add equipmentgroup
+add equipment entry "Mage_Helmet_GTS"
+add equipmentgroup
+add equipment entry "Mage_UpperBody_GTS"
+add equipmentgroup
+add equipment entry "Mage_LowerBody_GTS"
+add equipmentgroup
+add equipment entry "Mage_Gloves_GTS"
+add equipmentgroup
+add equipment entry "Mage_Gloves_GTS"
+
 new equipment "Equip_Rhino_GTS"
 add equipmentgroup
 add equipment entry "_Animals_Pentaceratops_Rhino_GTS"
@@ -71,4 +103,8 @@ add equipmentgroup
 add equipment entry "_Animals_Tiger_A_GTS"
 add equipmentgroup
 add equipment entry "NoShield"
+
+new equipment "Equip_Troll_GTS"
+add equipmentgroup
+add equipment entry "_Creatures_Troll_A_GTS"
 

@@ -1,32 +1,32 @@
 https://docs.larian.game/User:Sunjammer/api
 
 Monster Checklist:
-Scale the AI Bounds radius, check height#
+Scale the AI Bounds radius, check height
 Check display name
 Consider Equipment Class
 Look at Tags
 Consider adding empty VisualSets
-Remove Blood#
+Remove Blood
 Give equipment if necessary
 Set Level
 Check character Skillset
-Check character Stats$
-Make unTeleportable#
+Check character Stats
+Make unTeleportable
 Neutralize Alignment using Monster
-Give Boss flag$??????????????
+Give Boss flag
 GM spawn categories:
 	Kemui's Giants
 	Kemui's Template Giants
 	Kemui's Tramplers
-Jump Up Ladders even though it means down#
-Footstep Weight#
-Scale$
+Jump Up Ladders even though it means down
+Footstep Weight
+Scale
 
-Arena Checklist:
-Duplicate finalized Template
-Set no starting MP and set Template to use new Stats
-Remove GM category
-Template info at bottom will reset when duplicating for some reason
+Arena|Summon Checklist:
+Duplicate finalized Template|Same, plus remove bleeding Death Action
+Set no starting MP and set Template to use new Stats|Just new SkillSet
+Remove GM category|Same
+Template info at bottom will reset when duplicating for some reason|Same
 	(Scale, Footstep Weight)
 
 
@@ -43,17 +43,27 @@ GM can give rune slots to any weapon, but a weapon stat can't come with a rune.
 making giant damage flinchless. only did male lizard so far
 maybe add an object breaker? Hmmm...
 generic origins: Initial upload.
+	uhhh... humans are supposed to be 2.3?
+	they should target GM mode as well
+werewolf; overpower, curse, vampirism, teleportation??
+void flayer; crippling blow, adrenaline, curse, horrific scream, dominate mind
+	enrage, levitate, haste | dragon's blaze, ground smash
+ranged overpower; good?
+there a way to make banish self not bleed? in the summon template itself, apparently
+is rhino's weapon supposed to have resistable knockdown? should be gts now
+troll's weapon shouldn't try to deal knockdown, silly. forced it off, hopefully
+	half wonder if it deals too much damage, lol
+dragon's global cooling anim casts too early... should we care?
 
 
 Main Screenshots:
-	thumbnail ready, but Steam doesn't support thumbnails anymore???
+	thumbnail ready, but Steam doesn't support thumbnails???
 Collection:
-	banner, ult incarnate firing fireball! ... should we retake?
+	unique thumbnail?
 Red Prince:
-	thumbnail ready, but Steam doesn't support thumbnails anymore???
+	thumbnail ready, but Steam doesn't support thumbnails???
 ArmorSets:
-	thumbnail, glowwy shadow of devourer
-	devourer at night
+	thumbnail, glowwy shadow of devourer!
 
 
 Giants to Consider:
@@ -64,16 +74,14 @@ flesh golem or flesh-eating ghoul
 battle source puppet
 hungry flower
 harbinger of doom? (bad for groundsmash)
-voidwoken bonecrusher? (kinda messed up groundsmash)
-	bone destroyer same deal
-void flayer
+void flayer / void devourer
 voidwoken deep-dweller (weird movement)
 drill worm maybe
 werewolf?
 
 
 Messed Up Explosions:
-pig too big, undo
+pig too big, undo (l did, didn't l?)
 when you did turtles, did you get story turtles as well?
 (ghost deer) ((huh? l guess l wanted to double-check GM ghost deer))
 battle source puppet has a tree squish, so the moppet
@@ -160,6 +168,32 @@ humans female skeleton	 a19b45f9-1f2e-43f0-952e-3e3bcc9a88a4
 Dwarves_Hero_Female_Base 2e8d3ef9-33ec-4496-b0df-06ae85f26a62
 Elves_Hero_Female_Base 	 466d39b0-519d-4e00-809b-2da4ee3dbfc4
 elementaldevil giant	 2eafd50e-b49b-4171-8be7-56112870fed2
+
+
+Flinchless AnimSets:
+'hit' becomes hit02, but not backstab
+'block' becomes hit02 as well, but dodge stays same
+'sneak' & 'stillsneaking' stays same, but if not exists set to walk & still
+	(w/o an anim it'll show as an ailment)
+'stillchill' becomes still always
+'stillblind' becomes still when no unique anim exists
+'use_eat,drink,craft,dig' need to be something if not exist
+'climb' need you to make your own from a single walk anim, if not exist
+
+Big Custom Players:
+--Root Hero Template:
+AI Bounds radius
+VisualResource
+Blood
+Make unTeleportable
+Jump Up Ladders even though it means down
+Footstep Weight
+--
+--CharCreation Template:
+Stats
+Scale
+--
+Boss flag should be CharCreation Template, but gets unset by game?
 
 
 D:\SteamLibrary\steamapps\common\Divinity Original Sin 2\DefEd\Data
